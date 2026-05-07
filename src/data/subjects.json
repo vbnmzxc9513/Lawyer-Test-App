@@ -1,0 +1,33 @@
+{
+  "papers": [
+    {
+      "id": 1,
+      "name": "綜合法學（一）",
+      "totalPoints": 300,
+      "subjects": [
+        { "id": "constitutional", "name": "憲法", "points": 40, "icon": "📜", "color": "#6366f1" },
+        { "id": "administrative", "name": "行政法", "points": 70, "icon": "🏛️", "color": "#8b5cf6" },
+        { "id": "criminal", "name": "刑法", "points": 70, "icon": "⚖️", "color": "#ec4899" },
+        { "id": "criminal_procedure", "name": "刑事訴訟法", "points": 50, "icon": "🔍", "color": "#f43f5e" },
+        { "id": "international_public", "name": "國際公法", "points": 20, "icon": "🌐", "color": "#14b8a6" },
+        { "id": "international_private", "name": "國際私法", "points": 20, "icon": "🌍", "color": "#06b6d4" },
+        { "id": "legal_ethics", "name": "法律倫理", "points": 30, "icon": "🤝", "color": "#f59e0b" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "綜合法學（二）",
+      "totalPoints": 300,
+      "subjects": [
+        { "id": "civil", "name": "民法", "points": 100, "icon": "📋", "color": "#22c55e" },
+        { "id": "civil_procedure", "name": "民事訴訟法", "points": 60, "icon": "📝", "color": "#10b981" },
+        { "id": "company", "name": "公司法", "points": 30, "icon": "🏢", "color": "#3b82f6" },
+        { "id": "insurance", "name": "保險法", "points": 20, "icon": "🛡️", "color": "#6366f1" },
+        { "id": "negotiable_instruments", "name": "票據法", "points": 20, "icon": "💳", "color": "#8b5cf6" },
+        { "id": "securities", "name": "證券交易法", "points": 20, "icon": "📈", "color": "#a855f7" },
+        { "id": "enforcement", "name": "強制執行法", "points": 20, "icon": "⚡", "color": "#f97316" },
+        { "id": "legal_english", "name": "法學英文", "points": 30, "icon": "🔤", "color": "#ef4444" }
+      ]
+    }
+  ]
+}

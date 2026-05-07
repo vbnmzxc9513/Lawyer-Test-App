@@ -1,0 +1,10 @@
+{
+  "years": [
+    { "year": 113, "yearLabel": "113年(2024)", "lawyerCutoff": 354, "judgeCutoff": 362, "lawyerApplicants": 10232, "judgeApplicants": 9014 },
+    { "year": 112, "yearLabel": "112年(2023)", "lawyerCutoff": 356, "judgeCutoff": 360, "lawyerApplicants": 9864, "judgeApplicants": 8866 },
+    { "year": 111, "yearLabel": "111年(2022)", "lawyerCutoff": 372, "judgeCutoff": 382, "lawyerApplicants": 9342, "judgeApplicants": 8440 },
+    { "year": 110, "yearLabel": "110年(2021)", "lawyerCutoff": 366, "judgeCutoff": 374, "lawyerApplicants": 9110, "judgeApplicants": 8285 },
+    { "year": 109, "yearLabel": "109年(2020)", "lawyerCutoff": 370, "judgeCutoff": 378, "lawyerApplicants": 9620, "judgeApplicants": 8681 }
+  ],
+  "passRate": 0.33
+}
