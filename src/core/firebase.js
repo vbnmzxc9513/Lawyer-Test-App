@@ -1,14 +1,15 @@
 import { initializeApp } from "firebase/app";
-import { getFirestore, connectFirestoreEmulator } from "firebase/firestore";
+import { getFirestore } from "firebase/firestore";
+import { getAuth } from "firebase/auth";
 
-// 這裡使用假的設定檔，因為我們目前使用 Firebase Local Emulator
 const firebaseConfig = {
-  apiKey: "demo-api-key",
-  authDomain: "demo-project.firebaseapp.com",
-  projectId: "demo-project",
-  storageBucket: "demo-project.appspot.com",
-  messagingSenderId: "1234567890",
-  appId: "1:1234567890:web:abcdef123456"
+  apiKey: "AIzaSyDKvplWENIDpdmhLmEm72rhrfDwikYhkXM",
+  authDomain: "lawyerexam.firebaseapp.com",
+  projectId: "lawyerexam",
+  storageBucket: "lawyerexam.firebasestorage.app",
+  messagingSenderId: "1025446959678",
+  appId: "1:1025446959678:web:270460dbba5e40ec22cf6f",
+  measurementId: "G-440REVJBRX"
 };
 
 // 初始化 Firebase
@@ -17,10 +18,7 @@ const app = initializeApp(firebaseConfig);
 // 初始化 Firestore
 const db = getFirestore(app);
 
-// 連接到本地 Emulator (開發環境)
-if (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1") {
-  connectFirestoreEmulator(db, '127.0.0.1', 8080);
-  console.log("🔥 Connected to Firestore Local Emulator");
-}
+// 初始化 Auth
+const auth = getAuth(app);
 
-export { app, db };
+export { app, db, auth };

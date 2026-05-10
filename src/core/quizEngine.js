@@ -11,6 +11,7 @@ export class QuizEngine {
     // 設定
     this.config = {
       isSimulation: config.isSimulation || false, // 是否為模擬考模式 (不能看解答)
+      isMistakeRetry: config.isMistakeRetry || false, // 是否為錯題重考模式
       ...config
     };
   }
@@ -67,7 +68,9 @@ export class QuizEngine {
     return {
       isCorrect,
       correctAnswer: question.answer,
-      explanation: question.explanation
+      explanation: question.explanation,
+      isMistakeRetry: this.config.isMistakeRetry,
+      questionId: question.id
     };
   }
 

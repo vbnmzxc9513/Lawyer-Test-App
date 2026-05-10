@@ -62,9 +62,9 @@ async function main() {
     const promptText = fs.readFileSync(promptPath, 'utf-8');
 
     try {
-      console.log(`   ⏳ 等待 Gemini 2.5 Flash 生成詳解 (可能需要 1~2 分鐘)...`);
+      console.log(`   ⏳ 等待 Gemini 2.5 Flash 處理格式化 (約 10 秒)...`);
       const response = await ai.models.generateContent({
-        model: 'gemini-2.5-flash',
+        model: 'gemini-2.5-flash', // 使用最快模型進行格式化
         contents: promptText,
         config: {
           temperature: 0.2, // 降低隨機性，確保答案穩定

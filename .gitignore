@@ -28,6 +28,9 @@ scraper/pdfs/
 scraper/prompts/
 scraper/ai_results/
 scraper/prompt_output.txt
+scraper/serviceAccountKey.json
+scraper/PastExam/
+scraper/data/
 
 # Environment variables
 .env

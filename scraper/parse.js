@@ -50,16 +50,15 @@ async function extractPdfText(pdfPath) {
  * 產生 Gemini Prompt 的共用指令前綴
  */
 function getSystemPrompt(rocYear, paperName, batchNum, totalBatches) {
-  return `你是一位精通台灣法律的法學專家與工程師。
+  return `你是一個精確的資料格式化程式。
 以下是 ${rocYear} 年司律一試「${paperName}」的考題與官方標準答案。
 這是第 ${batchNum}/${totalBatches} 批。
 
 **你的任務：**
-1. 閱讀以下的【原始試題文字】與【官方解答文字】。
+1. 嚴格地將每一題的「題目文字」、「選項文字 (A/B/C/D)」從【原始試題文字】中分離出來。
 2. 將每一題正確對應上官方答案（注意：解答區的格式是以 10 題一組排列的英文字母，例如「ADDDADDDA」代表第 2~10 題的答案）。
-3. 為每一題加上 1~3 個「法學觀念標籤 (tags)」（例如："言論自由", "權力分立", "傳聞法則" 等具體法理概念）。
-4. 為每一題生成 50~100 字的精確「詳解 (explanation)」，引用具體法規或大法官解釋。
-5. 輸出為「單一陣列的 JSON 格式」。
+3. 絕對「不要」生成任何詳解或標籤。只需精確萃取原文與答案。
+4. 輸出為「單一陣列的 JSON 格式」。
 
 **JSON 格式 (嚴格遵守)：**
 \`\`\`json
@@ -76,9 +75,7 @@ function getSystemPrompt(rocYear, paperName, batchNum, totalBatches) {
       "C": "選項C完整文字",
       "D": "選項D完整文字"
     },
-    "answer": "C",
-    "explanation": "依據釋字第744號...",
-    "tags": ["言論自由", "事前審查"]
+    "answer": "C"
   }
 ]
 \`\`\`

@@ -1,0 +1,1254 @@
+[
+  {
+    "at": "2026-05-10T07:35:59.935Z",
+    "totalFixed": 154,
+    "fixes": [
+      {
+        "docId": "111-2301-administrative-51",
+        "oldAns": "D",
+        "newAns": "B",
+        "paper": "111-0101",
+        "qNum": 51,
+        "subject": "administrative"
+      },
+      {
+        "docId": "111-2301-international_public-56",
+        "oldAns": "D",
+        "newAns": "C",
+        "paper": "111-0101",
+        "qNum": 56,
+        "subject": "international_public"
+      },
+      {
+        "docId": "111-2301-international_public-57",
+        "oldAns": "C",
+        "newAns": "B",
+        "paper": "111-0101",
+        "qNum": 57,
+        "subject": "international_public"
+      },
+      {
+        "docId": "111-2301-international_public-58",
+        "oldAns": "A",
+        "newAns": "C",
+        "paper": "111-0101",
+        "qNum": 58,
+        "subject": "international_public"
+      },
+      {
+        "docId": "111-2301-international_public-60",
+        "oldAns": "A",
+        "newAns": "B",
+        "paper": "111-0101",
+        "qNum": 60,
+        "subject": "international_public"
+      },
+      {
+        "docId": "111-3301-civil-03",
+        "oldAns": "A",
+        "newAns": "C",
+        "paper": "111-0201",
+        "qNum": 3,
+        "subject": "civil"
+      },
+      {
+        "docId": "111-3301-civil-04",
+        "oldAns": "C",
+        "newAns": "A",
+        "paper": "111-0201",
+        "qNum": 4,
+        "subject": "civil"
+      },
+      {
+        "docId": "111-3301-civil-05",
+        "oldAns": "D",
+        "newAns": "C",
+        "paper": "111-0201",
+        "qNum": 5,
+        "subject": "civil"
+      },
+      {
+        "docId": "111-3301-civil-06",
+        "oldAns": "B",
+        "newAns": "D",
+        "paper": "111-0201",
+        "qNum": 6,
+        "subject": "civil"
+      },
+      {
+        "docId": "111-3301-civil-08",
+        "oldAns": "C",
+        "newAns": "B",
+        "paper": "111-0201",
+        "qNum": 8,
+        "subject": "civil"
+      },
+      {
+        "docId": "111-3301-civil-09",
+        "oldAns": "B",
+        "newAns": "C",
+        "paper": "111-0201",
+        "qNum": 9,
+        "subject": "civil"
+      },
+      {
+        "docId": "111-3301-civil-10",
+        "oldAns": "D",
+        "newAns": "B",
+        "paper": "111-0201",
+        "qNum": 10,
+        "subject": "civil"
+      },
+      {
+        "docId": "111-3301-civil-13",
+        "oldAns": "A",
+        "newAns": "D",
+        "paper": "111-0201",
+        "qNum": 13,
+        "subject": "civil"
+      },
+      {
+        "docId": "111-3301-civil-15",
+        "oldAns": "C",
+        "newAns": "D",
+        "paper": "111-0201",
+        "qNum": 15,
+        "subject": "civil"
+      },
+      {
+        "docId": "111-3301-civil-18",
+        "oldAns": "B",
+        "newAns": "D",
+        "paper": "111-0201",
+        "qNum": 18,
+        "subject": "civil"
+      },
+      {
+        "docId": "111-3301-civil-19",
+        "oldAns": "A",
+        "newAns": "B",
+        "paper": "111-0201",
+        "qNum": 19,
+        "subject": "civil"
+      },
+      {
+        "docId": "111-3301-civil-23",
+        "oldAns": "D",
+        "newAns": "B",
+        "paper": "111-0201",
+        "qNum": 23,
+        "subject": "civil"
+      },
+      {
+        "docId": "111-3301-civil-24",
+        "oldAns": "B",
+        "newAns": "C",
+        "paper": "111-0201",
+        "qNum": 24,
+        "subject": "civil"
+      },
+      {
+        "docId": "111-3301-civil-25",
+        "oldAns": "C",
+        "newAns": "D",
+        "paper": "111-0201",
+        "qNum": 25,
+        "subject": "civil"
+      },
+      {
+        "docId": "111-3301-civil-27",
+        "oldAns": "A",
+        "newAns": "D",
+        "paper": "111-0201",
+        "qNum": 27,
+        "subject": "civil"
+      },
+      {
+        "docId": "111-3301-civil-28",
+        "oldAns": "D",
+        "newAns": "B",
+        "paper": "111-0201",
+        "qNum": 28,
+        "subject": "civil"
+      },
+      {
+        "docId": "111-3301-civil-32",
+        "oldAns": "A",
+        "newAns": "D",
+        "paper": "111-0201",
+        "qNum": 32,
+        "subject": "civil"
+      },
+      {
+        "docId": "111-3301-civil-34",
+        "oldAns": "C",
+        "newAns": "D",
+        "paper": "111-0201",
+        "qNum": 34,
+        "subject": "civil"
+      },
+      {
+        "docId": "111-3301-civil-35",
+        "oldAns": "D",
+        "newAns": "C",
+        "paper": "111-0201",
+        "qNum": 35,
+        "subject": "civil"
+      },
+      {
+        "docId": "111-3301-civil-44",
+        "oldAns": "D",
+        "newAns": "B",
+        "paper": "111-0201",
+        "qNum": 44,
+        "subject": "civil"
+      },
+      {
+        "docId": "111-3301-civil-45",
+        "oldAns": "D",
+        "newAns": "A",
+        "paper": "111-0201",
+        "qNum": 45,
+        "subject": "civil"
+      },
+      {
+        "docId": "111-3301-civil-47",
+        "oldAns": "D",
+        "newAns": "A",
+        "paper": "111-0201",
+        "qNum": 47,
+        "subject": "civil"
+      },
+      {
+        "docId": "111-3301-civil-49",
+        "oldAns": "D",
+        "newAns": "C",
+        "paper": "111-0201",
+        "qNum": 49,
+        "subject": "civil"
+      },
+      {
+        "docId": "111-3301-civil_procedure-60",
+        "oldAns": "A",
+        "newAns": "C",
+        "paper": "111-0201",
+        "qNum": 60,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "111-3301-civil_procedure-61",
+        "oldAns": "C",
+        "newAns": "B",
+        "paper": "111-0201",
+        "qNum": 61,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "111-3301-civil_procedure-73",
+        "oldAns": "D",
+        "newAns": "B",
+        "paper": "111-0201",
+        "qNum": 73,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "111-3301-civil_procedure-74",
+        "oldAns": "C",
+        "newAns": "B",
+        "paper": "111-0201",
+        "qNum": 74,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "111-3301-civil_procedure-75",
+        "oldAns": "C",
+        "newAns": "D",
+        "paper": "111-0201",
+        "qNum": 75,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "111-3301-civil-80",
+        "oldAns": "A",
+        "newAns": "D",
+        "paper": "111-0201",
+        "qNum": 80,
+        "subject": "civil"
+      },
+      {
+        "docId": "111-4301-enforcement-49",
+        "oldAns": "D",
+        "newAns": "C",
+        "paper": "111-0202",
+        "qNum": 49,
+        "subject": "enforcement"
+      },
+      {
+        "docId": "111-4301-enforcement-50",
+        "oldAns": "D",
+        "newAns": "B",
+        "paper": "111-0202",
+        "qNum": 50,
+        "subject": "enforcement"
+      },
+      {
+        "docId": "111-1301-criminal-01",
+        "oldAns": "B",
+        "newAns": "D",
+        "paper": "111-0301",
+        "qNum": 1,
+        "subject": "criminal"
+      },
+      {
+        "docId": "111-1301-criminal-11",
+        "oldAns": "B",
+        "newAns": "A",
+        "paper": "111-0301",
+        "qNum": 11,
+        "subject": "criminal"
+      },
+      {
+        "docId": "111-1301-criminal-13",
+        "oldAns": "D",
+        "newAns": "B",
+        "paper": "111-0301",
+        "qNum": 13,
+        "subject": "criminal"
+      },
+      {
+        "docId": "111-1301-criminal-15",
+        "oldAns": "C",
+        "newAns": "B",
+        "paper": "111-0301",
+        "qNum": 15,
+        "subject": "criminal"
+      },
+      {
+        "docId": "111-1301-criminal-16",
+        "oldAns": "D",
+        "newAns": "C",
+        "paper": "111-0301",
+        "qNum": 16,
+        "subject": "criminal"
+      },
+      {
+        "docId": "111-1301-criminal-17",
+        "oldAns": "A",
+        "newAns": "D",
+        "paper": "111-0301",
+        "qNum": 17,
+        "subject": "criminal"
+      },
+      {
+        "docId": "111-1301-criminal-19",
+        "oldAns": "D",
+        "newAns": "A",
+        "paper": "111-0301",
+        "qNum": 19,
+        "subject": "criminal"
+      },
+      {
+        "docId": "111-1301-criminal-20",
+        "oldAns": "C",
+        "newAns": "D",
+        "paper": "111-0301",
+        "qNum": 20,
+        "subject": "criminal"
+      },
+      {
+        "docId": "111-1301-criminal-21",
+        "oldAns": "B",
+        "newAns": "C",
+        "paper": "111-0301",
+        "qNum": 21,
+        "subject": "criminal"
+      },
+      {
+        "docId": "111-1301-criminal-22",
+        "oldAns": "A",
+        "newAns": "B",
+        "paper": "111-0301",
+        "qNum": 22,
+        "subject": "criminal"
+      },
+      {
+        "docId": "111-1301-criminal-23",
+        "oldAns": "C",
+        "newAns": "A",
+        "paper": "111-0301",
+        "qNum": 23,
+        "subject": "criminal"
+      },
+      {
+        "docId": "111-1301-criminal-24",
+        "oldAns": "A",
+        "newAns": "C",
+        "paper": "111-0301",
+        "qNum": 24,
+        "subject": "criminal"
+      },
+      {
+        "docId": "111-1301-criminal-25",
+        "oldAns": "B",
+        "newAns": "A",
+        "paper": "111-0301",
+        "qNum": 25,
+        "subject": "criminal"
+      },
+      {
+        "docId": "111-1301-criminal-26",
+        "oldAns": "A",
+        "newAns": "B",
+        "paper": "111-0301",
+        "qNum": 26,
+        "subject": "criminal"
+      },
+      {
+        "docId": "111-1301-criminal-27",
+        "oldAns": "B",
+        "newAns": "A",
+        "paper": "111-0301",
+        "qNum": 27,
+        "subject": "criminal"
+      },
+      {
+        "docId": "111-1301-criminal-28",
+        "oldAns": "D",
+        "newAns": "B",
+        "paper": "111-0301",
+        "qNum": 28,
+        "subject": "criminal"
+      },
+      {
+        "docId": "111-1301-criminal-29",
+        "oldAns": "C",
+        "newAns": "D",
+        "paper": "111-0301",
+        "qNum": 29,
+        "subject": "criminal"
+      },
+      {
+        "docId": "111-1301-criminal-30",
+        "oldAns": "B",
+        "newAns": "C",
+        "paper": "111-0301",
+        "qNum": 30,
+        "subject": "criminal"
+      },
+      {
+        "docId": "111-1301-criminal-31",
+        "oldAns": "A",
+        "newAns": "B",
+        "paper": "111-0301",
+        "qNum": 31,
+        "subject": "criminal"
+      },
+      {
+        "docId": "111-1301-criminal-34",
+        "oldAns": "B",
+        "newAns": "C",
+        "paper": "111-0301",
+        "qNum": 34,
+        "subject": "criminal"
+      },
+      {
+        "docId": "111-1301-criminal-35",
+        "oldAns": "D",
+        "newAns": "B",
+        "paper": "111-0301",
+        "qNum": 35,
+        "subject": "criminal"
+      },
+      {
+        "docId": "111-1301-criminal_procedure-37",
+        "oldAns": "C",
+        "newAns": "D",
+        "paper": "111-0301",
+        "qNum": 37,
+        "subject": "criminal_procedure"
+      },
+      {
+        "docId": "111-1301-criminal_procedure-39",
+        "oldAns": "C",
+        "newAns": "D",
+        "paper": "111-0301",
+        "qNum": 39,
+        "subject": "criminal_procedure"
+      },
+      {
+        "docId": "111-1301-criminal_procedure-40",
+        "oldAns": "D",
+        "newAns": "B",
+        "paper": "111-0301",
+        "qNum": 40,
+        "subject": "criminal_procedure"
+      },
+      {
+        "docId": "111-1301-criminal_procedure-41",
+        "oldAns": "B",
+        "newAns": "D",
+        "paper": "111-0301",
+        "qNum": 41,
+        "subject": "criminal_procedure"
+      },
+      {
+        "docId": "111-1301-criminal_procedure-42",
+        "oldAns": "D",
+        "newAns": "C",
+        "paper": "111-0301",
+        "qNum": 42,
+        "subject": "criminal_procedure"
+      },
+      {
+        "docId": "111-1301-criminal_procedure-45",
+        "oldAns": "D",
+        "newAns": "A",
+        "paper": "111-0301",
+        "qNum": 45,
+        "subject": "criminal_procedure"
+      },
+      {
+        "docId": "111-1301-criminal_procedure-46",
+        "oldAns": "A",
+        "newAns": "D",
+        "paper": "111-0301",
+        "qNum": 46,
+        "subject": "criminal_procedure"
+      },
+      {
+        "docId": "111-1301-legal_ethics-65",
+        "oldAns": "B",
+        "newAns": "C",
+        "paper": "111-0301",
+        "qNum": 65,
+        "subject": "legal_ethics"
+      },
+      {
+        "docId": "112-2301-international_public-60",
+        "oldAns": "B",
+        "newAns": "C",
+        "paper": "112-0101",
+        "qNum": 60,
+        "subject": "international_public"
+      },
+      {
+        "docId": "112-3301-civil-11",
+        "oldAns": "C",
+        "newAns": "B",
+        "paper": "112-0201",
+        "qNum": 11,
+        "subject": "civil"
+      },
+      {
+        "docId": "112-3301-civil-12",
+        "oldAns": "B",
+        "newAns": "C",
+        "paper": "112-0201",
+        "qNum": 12,
+        "subject": "civil"
+      },
+      {
+        "docId": "112-3301-civil-21",
+        "oldAns": "C",
+        "newAns": "B",
+        "paper": "112-0201",
+        "qNum": 21,
+        "subject": "civil"
+      },
+      {
+        "docId": "112-3301-civil-25",
+        "oldAns": "C",
+        "newAns": "D",
+        "paper": "112-0201",
+        "qNum": 25,
+        "subject": "civil"
+      },
+      {
+        "docId": "112-3301-civil-26",
+        "oldAns": "D",
+        "newAns": "C",
+        "paper": "112-0201",
+        "qNum": 26,
+        "subject": "civil"
+      },
+      {
+        "docId": "112-3301-civil-27",
+        "oldAns": "C",
+        "newAns": "B",
+        "paper": "112-0201",
+        "qNum": 27,
+        "subject": "civil"
+      },
+      {
+        "docId": "112-3301-civil-28",
+        "oldAns": "B",
+        "newAns": "A",
+        "paper": "112-0201",
+        "qNum": 28,
+        "subject": "civil"
+      },
+      {
+        "docId": "112-3301-civil-29",
+        "oldAns": "A",
+        "newAns": "B",
+        "paper": "112-0201",
+        "qNum": 29,
+        "subject": "civil"
+      },
+      {
+        "docId": "112-3301-civil-33",
+        "oldAns": "B",
+        "newAns": "C",
+        "paper": "112-0201",
+        "qNum": 33,
+        "subject": "civil"
+      },
+      {
+        "docId": "112-3301-civil-34",
+        "oldAns": "C",
+        "newAns": "A",
+        "paper": "112-0201",
+        "qNum": 34,
+        "subject": "civil"
+      },
+      {
+        "docId": "112-3301-civil-35",
+        "oldAns": "A",
+        "newAns": "C",
+        "paper": "112-0201",
+        "qNum": 35,
+        "subject": "civil"
+      },
+      {
+        "docId": "112-3301-civil-36",
+        "oldAns": "C",
+        "newAns": "A",
+        "paper": "112-0201",
+        "qNum": 36,
+        "subject": "civil"
+      },
+      {
+        "docId": "112-3301-civil-37",
+        "oldAns": "A",
+        "newAns": "B",
+        "paper": "112-0201",
+        "qNum": 37,
+        "subject": "civil"
+      },
+      {
+        "docId": "112-3301-civil-38",
+        "oldAns": "B",
+        "newAns": "C",
+        "paper": "112-0201",
+        "qNum": 38,
+        "subject": "civil"
+      },
+      {
+        "docId": "112-3301-civil-39",
+        "oldAns": "C",
+        "newAns": "D",
+        "paper": "112-0201",
+        "qNum": 39,
+        "subject": "civil"
+      },
+      {
+        "docId": "112-3301-civil-40",
+        "oldAns": "D",
+        "newAns": "B",
+        "paper": "112-0201",
+        "qNum": 40,
+        "subject": "civil"
+      },
+      {
+        "docId": "112-3301-civil-41",
+        "oldAns": "B",
+        "newAns": "C",
+        "paper": "112-0201",
+        "qNum": 41,
+        "subject": "civil"
+      },
+      {
+        "docId": "112-3301-civil-42",
+        "oldAns": "C",
+        "newAns": "A",
+        "paper": "112-0201",
+        "qNum": 42,
+        "subject": "civil"
+      },
+      {
+        "docId": "112-3301-civil-43",
+        "oldAns": "A",
+        "newAns": "D",
+        "paper": "112-0201",
+        "qNum": 43,
+        "subject": "civil"
+      },
+      {
+        "docId": "112-3301-civil-44",
+        "oldAns": "D",
+        "newAns": "B",
+        "paper": "112-0201",
+        "qNum": 44,
+        "subject": "civil"
+      },
+      {
+        "docId": "112-3301-civil-47",
+        "oldAns": "A",
+        "newAns": "D",
+        "paper": "112-0201",
+        "qNum": 47,
+        "subject": "civil"
+      },
+      {
+        "docId": "112-3301-civil-48",
+        "oldAns": "D",
+        "newAns": "C",
+        "paper": "112-0201",
+        "qNum": 48,
+        "subject": "civil"
+      },
+      {
+        "docId": "112-3301-civil-49",
+        "oldAns": "C",
+        "newAns": "D",
+        "paper": "112-0201",
+        "qNum": 49,
+        "subject": "civil"
+      },
+      {
+        "docId": "112-3301-civil_procedure-52",
+        "oldAns": "A",
+        "newAns": "D",
+        "paper": "112-0201",
+        "qNum": 52,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "112-3301-civil_procedure-53",
+        "oldAns": "D",
+        "newAns": "B",
+        "paper": "112-0201",
+        "qNum": 53,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "112-3301-civil_procedure-54",
+        "oldAns": "B",
+        "newAns": "D",
+        "paper": "112-0201",
+        "qNum": 54,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "112-3301-civil_procedure-55",
+        "oldAns": "D",
+        "newAns": "C",
+        "paper": "112-0201",
+        "qNum": 55,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "112-3301-civil_procedure-56",
+        "oldAns": "C",
+        "newAns": "A",
+        "paper": "112-0201",
+        "qNum": 56,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "112-3301-civil_procedure-57",
+        "oldAns": "A",
+        "newAns": "C",
+        "paper": "112-0201",
+        "qNum": 57,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "112-3301-civil_procedure-59",
+        "oldAns": "D",
+        "newAns": "C",
+        "paper": "112-0201",
+        "qNum": 59,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "112-3301-civil_procedure-60",
+        "oldAns": "C",
+        "newAns": "D",
+        "paper": "112-0201",
+        "qNum": 60,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "112-3301-civil_procedure-61",
+        "oldAns": "D",
+        "newAns": "B",
+        "paper": "112-0201",
+        "qNum": 61,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "112-3301-civil_procedure-64",
+        "oldAns": "D",
+        "newAns": "B",
+        "paper": "112-0201",
+        "qNum": 64,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "112-3301-civil_procedure-67",
+        "oldAns": "A",
+        "newAns": "D",
+        "paper": "112-0201",
+        "qNum": 67,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "112-3301-civil_procedure-71",
+        "oldAns": "D",
+        "newAns": "A",
+        "paper": "112-0201",
+        "qNum": 71,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "112-3301-civil_procedure-73",
+        "oldAns": "D",
+        "newAns": "A",
+        "paper": "112-0201",
+        "qNum": 73,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "112-3301-civil_procedure-75",
+        "oldAns": "C",
+        "newAns": "D",
+        "paper": "112-0201",
+        "qNum": 75,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "112-3301-civil_procedure-77",
+        "oldAns": "C",
+        "newAns": "B",
+        "paper": "112-0201",
+        "qNum": 77,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "112-3301-civil_procedure-78",
+        "oldAns": "D",
+        "newAns": "C",
+        "paper": "112-0201",
+        "qNum": 78,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "112-4301-insurance-23",
+        "oldAns": "C",
+        "newAns": "A",
+        "paper": "112-0202",
+        "qNum": 23,
+        "subject": "insurance"
+      },
+      {
+        "docId": "112-4301-negotiable_instruments-27",
+        "oldAns": "B",
+        "newAns": "D",
+        "paper": "112-0202",
+        "qNum": 27,
+        "subject": "negotiable_instruments"
+      },
+      {
+        "docId": "112-4301-negotiable_instruments-29",
+        "oldAns": "D",
+        "newAns": "C",
+        "paper": "112-0202",
+        "qNum": 29,
+        "subject": "negotiable_instruments"
+      },
+      {
+        "docId": "112-4301-negotiable_instruments-30",
+        "oldAns": "A",
+        "newAns": "D",
+        "paper": "112-0202",
+        "qNum": 30,
+        "subject": "negotiable_instruments"
+      },
+      {
+        "docId": "112-4301-negotiable_instruments-31",
+        "oldAns": "A",
+        "newAns": "D",
+        "paper": "112-0202",
+        "qNum": 31,
+        "subject": "negotiable_instruments"
+      },
+      {
+        "docId": "112-4301-negotiable_instruments-33",
+        "oldAns": "D",
+        "newAns": "B",
+        "paper": "112-0202",
+        "qNum": 33,
+        "subject": "negotiable_instruments"
+      },
+      {
+        "docId": "112-4301-negotiable_instruments-34",
+        "oldAns": "B",
+        "newAns": "C",
+        "paper": "112-0202",
+        "qNum": 34,
+        "subject": "negotiable_instruments"
+      },
+      {
+        "docId": "112-4301-negotiable_instruments-35",
+        "oldAns": "C",
+        "newAns": "D",
+        "paper": "112-0202",
+        "qNum": 35,
+        "subject": "negotiable_instruments"
+      },
+      {
+        "docId": "112-4301-securities-36",
+        "oldAns": "D",
+        "newAns": "A",
+        "paper": "112-0202",
+        "qNum": 36,
+        "subject": "securities"
+      },
+      {
+        "docId": "112-4301-enforcement-48",
+        "oldAns": "B",
+        "newAns": "D",
+        "paper": "112-0202",
+        "qNum": 48,
+        "subject": "enforcement"
+      },
+      {
+        "docId": "112-4301-enforcement-49",
+        "oldAns": "B",
+        "newAns": "C",
+        "paper": "112-0202",
+        "qNum": 49,
+        "subject": "enforcement"
+      },
+      {
+        "docId": "112-4301-enforcement-51",
+        "oldAns": "D",
+        "newAns": "B",
+        "paper": "112-0202",
+        "qNum": 51,
+        "subject": "enforcement"
+      },
+      {
+        "docId": "112-4301-enforcement-52",
+        "oldAns": "C",
+        "newAns": "B",
+        "paper": "112-0202",
+        "qNum": 52,
+        "subject": "enforcement"
+      },
+      {
+        "docId": "112-1301-legal_ethics-65",
+        "oldAns": "D",
+        "newAns": "A",
+        "paper": "112-0301",
+        "qNum": 65,
+        "subject": "legal_ethics"
+      },
+      {
+        "docId": "113-2301-administrative-51",
+        "oldAns": "B",
+        "newAns": "D",
+        "paper": "113-0101",
+        "qNum": 51,
+        "subject": "administrative"
+      },
+      {
+        "docId": "113-2301-administrative-53",
+        "oldAns": "A",
+        "newAns": "B",
+        "paper": "113-0101",
+        "qNum": 53,
+        "subject": "administrative"
+      },
+      {
+        "docId": "113-2301-administrative-55",
+        "oldAns": "D",
+        "newAns": "B",
+        "paper": "113-0101",
+        "qNum": 55,
+        "subject": "administrative"
+      },
+      {
+        "docId": "113-2301-international_public-56",
+        "oldAns": "C",
+        "newAns": "D",
+        "paper": "113-0101",
+        "qNum": 56,
+        "subject": "international_public"
+      },
+      {
+        "docId": "113-2301-international_public-58",
+        "oldAns": "B",
+        "newAns": "C",
+        "paper": "113-0101",
+        "qNum": 58,
+        "subject": "international_public"
+      },
+      {
+        "docId": "113-2301-international_public-59",
+        "oldAns": "B",
+        "newAns": "C",
+        "paper": "113-0101",
+        "qNum": 59,
+        "subject": "international_public"
+      },
+      {
+        "docId": "113-2301-international_public-60",
+        "oldAns": "A",
+        "newAns": "B",
+        "paper": "113-0101",
+        "qNum": 60,
+        "subject": "international_public"
+      },
+      {
+        "docId": "113-3301-civil_procedure-63",
+        "oldAns": "B",
+        "newAns": "A",
+        "paper": "113-0201",
+        "qNum": 63,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "113-3301-civil_procedure-64",
+        "oldAns": "B",
+        "newAns": "D",
+        "paper": "113-0201",
+        "qNum": 64,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "113-3301-civil_procedure-65",
+        "oldAns": "A",
+        "newAns": "D",
+        "paper": "113-0201",
+        "qNum": 65,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "113-3301-civil_procedure-67",
+        "oldAns": "D",
+        "newAns": "B",
+        "paper": "113-0201",
+        "qNum": 67,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "113-3301-civil_procedure-68",
+        "oldAns": "A",
+        "newAns": "B",
+        "paper": "113-0201",
+        "qNum": 68,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "113-3301-civil_procedure-69",
+        "oldAns": "C",
+        "newAns": "A",
+        "paper": "113-0201",
+        "qNum": 69,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "113-3301-civil_procedure-75",
+        "oldAns": "B",
+        "newAns": "D",
+        "paper": "113-0201",
+        "qNum": 75,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "113-3301-civil_procedure-76",
+        "oldAns": "B",
+        "newAns": "C",
+        "paper": "113-0201",
+        "qNum": 76,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "113-3301-civil_procedure-77",
+        "oldAns": "C",
+        "newAns": "B",
+        "paper": "113-0201",
+        "qNum": 77,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "113-3301-civil_procedure-78",
+        "oldAns": "A",
+        "newAns": "B",
+        "paper": "113-0201",
+        "qNum": 78,
+        "subject": "civil_procedure"
+      },
+      {
+        "docId": "113-4301-enforcement-53",
+        "oldAns": "C",
+        "newAns": "D",
+        "paper": "113-0202",
+        "qNum": 53,
+        "subject": "enforcement"
+      },
+      {
+        "docId": "113-4301-legal_english-57",
+        "oldAns": "A",
+        "newAns": "B",
+        "paper": "113-0202",
+        "qNum": 57,
+        "subject": "legal_english"
+      },
+      {
+        "docId": "113-4301-legal_english-61",
+        "oldAns": "C",
+        "newAns": "D",
+        "paper": "113-0202",
+        "qNum": 61,
+        "subject": "legal_english"
+      },
+      {
+        "docId": "113-4301-company-62",
+        "oldAns": "B",
+        "newAns": "C",
+        "paper": "113-0202",
+        "qNum": 62,
+        "subject": "company"
+      },
+      {
+        "docId": "113-4301-securities-63",
+        "oldAns": "C",
+        "newAns": "D",
+        "paper": "113-0202",
+        "qNum": 63,
+        "subject": "securities"
+      },
+      {
+        "docId": "113-4301-legal_english-64",
+        "oldAns": "C",
+        "newAns": "B",
+        "paper": "113-0202",
+        "qNum": 64,
+        "subject": "legal_english"
+      },
+      {
+        "docId": "113-4301-legal_english-65",
+        "oldAns": "B",
+        "newAns": "C",
+        "paper": "113-0202",
+        "qNum": 65,
+        "subject": "legal_english"
+      },
+      {
+        "docId": "113-4301-legal_english-66",
+        "oldAns": "A",
+        "newAns": "C",
+        "paper": "113-0202",
+        "qNum": 66,
+        "subject": "legal_english"
+      },
+      {
+        "docId": "113-4301-legal_english-70",
+        "oldAns": "B",
+        "newAns": "D",
+        "paper": "113-0202",
+        "qNum": 70,
+        "subject": "legal_english"
+      },
+      {
+        "docId": "113-1301-criminal_procedure-57",
+        "oldAns": "C",
+        "newAns": "D",
+        "paper": "113-0301",
+        "qNum": 57,
+        "subject": "criminal_procedure"
+      },
+      {
+        "docId": "113-1301-criminal_procedure-60",
+        "oldAns": "A",
+        "newAns": "B",
+        "paper": "113-0301",
+        "qNum": 60,
+        "subject": "criminal_procedure"
+      },
+      {
+        "docId": "113-1301-legal_ethics-61",
+        "oldAns": "B",
+        "newAns": "C",
+        "paper": "113-0301",
+        "qNum": 61,
+        "subject": "legal_ethics"
+      },
+      {
+        "docId": "113-1301-legal_ethics-63",
+        "oldAns": "B",
+        "newAns": "D",
+        "paper": "113-0301",
+        "qNum": 63,
+        "subject": "legal_ethics"
+      },
+      {
+        "docId": "113-1301-legal_ethics-64",
+        "oldAns": "C",
+        "newAns": "D",
+        "paper": "113-0301",
+        "qNum": 64,
+        "subject": "legal_ethics"
+      },
+      {
+        "docId": "113-1301-legal_ethics-65",
+        "oldAns": "A",
+        "newAns": "B",
+        "paper": "113-0301",
+        "qNum": 65,
+        "subject": "legal_ethics"
+      },
+      {
+        "docId": "113-1301-legal_ethics-69",
+        "oldAns": "D",
+        "newAns": "A",
+        "paper": "113-0301",
+        "qNum": 69,
+        "subject": "legal_ethics"
+      },
+      {
+        "docId": "113-1301-legal_ethics-71",
+        "oldAns": "D",
+        "newAns": "B",
+        "paper": "113-0301",
+        "qNum": 71,
+        "subject": "legal_ethics"
+      },
+      {
+        "docId": "113-1301-legal_ethics-72",
+        "oldAns": "B",
+        "newAns": "C",
+        "paper": "113-0301",
+        "qNum": 72,
+        "subject": "legal_ethics"
+      }
+    ]
+  },
+  {
+    "action": "upload_missing",
+    "at": "2026-05-10T07:52:34.096Z",
+    "count": 143,
+    "papers": {
+      "111-1301": 1,
+      "111-4301": 18,
+      "112-1301": 50,
+      "112-4301": 17,
+      "113-1301": 55,
+      "113-3301": 1,
+      "113-4301": 1
+    }
+  }
+]
