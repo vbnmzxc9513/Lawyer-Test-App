@@ -50,7 +50,7 @@ const PAPERS = [
 
 // 狀態管理
 let currentQuizEngine = null;
-let selectedPracticeYear = 113;
+let selectedPracticeYear = 114;
 let currentQuizMeta = { year: null, subject: null };
 
 // ---- SPA 簡易路由系統 ----
@@ -225,7 +225,7 @@ function renderPractice() {
         <h2 class="section-title">📚 選擇練習科目</h2>
       </div>
       <div class="year-tabs">
-        ${[113, 112, 111].map(y => `
+        ${[114, 113, 112, 111].map(y => `
           <button class="year-tab ${y === yr ? 'active' : ''}" onclick="window.changePracticeYear(${y})">${y}年</button>
         `).join('')}
       </div>

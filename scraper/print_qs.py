@@ -4,7 +4,7 @@ with open('data/missing_questions.json', 'r', encoding='utf-8') as f:
     docs = json.load(f)
 
 for d in docs:
-    if d['year'] == 112 and d['subject'] == 'criminal' and 11 <= d['questionNumber'] <= 20:
+    if d['subject'] in ['company','insurance','securities','negotiable_instruments'] and d['year'] == 111:
         qn = d['questionNumber']
         print(f"Q{qn} ans={d['answer']}")
         print(f"  {d['questionText'][:100]}")
