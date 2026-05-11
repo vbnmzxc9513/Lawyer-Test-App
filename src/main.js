@@ -401,9 +401,42 @@ window.submitAnswer = (selectedKey) => {
     box.innerHTML += removeHtml;
   }
 
+  // 錯誤回報按鈕
+  const reportBtnHtml = `
+    <div class="report-error-section">
+      <button class="btn btn-sm btn-ghost report-error-btn" onclick="window.reportError('${q.id}', '${q.questionNumber || ''}', '${(currentQuizMeta.year || '')}', '${(currentQuizMeta.subject || '')}')">
+        ⚠️ 回報題目或詳解錯誤
+      </button>
+    </div>
+  `;
+  box.innerHTML += reportBtnHtml;
+
   box.classList.remove('hidden');
   document.getElementById('quiz-footer').classList.remove('hidden');
   box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+};
+
+// 錯誤回報功能 — 從 Firestore 取得信箱
+window.reportError = async (questionId, questionNum, year, subject) => {
+  try {
+    const { doc, getDoc } = await import('firebase/firestore');
+    const configRef = doc(db, 'config', 'report');
+    const configSnap = await getDoc(configRef);
+    if (!configSnap.exists() || !configSnap.data().enabled) {
+      showToast('⚠️', '目前回報功能暫時關閉');
+      return;
+    }
+    const email = configSnap.data().email;
+    const subjectName = SUBJECTS[subject] ? SUBJECTS[subject].name : subject;
+    const mailSubject = encodeURIComponent(`[題目回報] ${year}年 ${subjectName} 第${questionNum}題 (${questionId})`);
+    const mailBody = encodeURIComponent(
+      `\n題目編號：${questionId}\n年度：${year}年\n科目：${subjectName}\n題號：第${questionNum}題\n\n錯誤類型（請勾選或說明）：\n□ 答案有誤\n□ 詳解內容有誤\n□ 選項文字錯誤\n□ 其他\n\n詳細說明：\n\n`
+    );
+    window.open(`mailto:${email}?subject=${mailSubject}&body=${mailBody}`, '_self');
+  } catch (e) {
+    console.error('Report error:', e);
+    showToast('❌', '回報功能發生錯誤，請稍後再試');
+  }
 };
 
 // 下一題邏輯

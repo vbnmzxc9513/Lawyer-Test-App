@@ -320,6 +320,23 @@
 }
 .opt-key.opt-correct { background: rgba(16,185,129,0.2); color: #059669; }
 
+/* ---- Report Error Button ---- */
+.report-error-section {
+  padding: var(--space-3) var(--space-4);
+  border-top: var(--border-subtle);
+  text-align: center;
+}
+.report-error-btn {
+  font-size: var(--text-xs) !important;
+  color: var(--color-text-muted) !important;
+  gap: var(--space-1);
+  transition: color var(--transition-fast), background var(--transition-fast);
+}
+.report-error-btn:hover {
+  color: var(--color-warning) !important;
+  background: rgba(245, 158, 11, 0.08);
+}
+
 /* ---- Form Controls ---- */
 .form-label {
   display: block; font-size: var(--text-sm); font-weight: var(--font-medium);
