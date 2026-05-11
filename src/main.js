@@ -328,7 +328,7 @@ function renderQuiz() {
         </div>
         <div class="question-text">${question.questionText}</div>
         <div class="question-options">
-          ${Object.entries(question.options).map(([key, value]) => `
+          ${Object.entries(question.options).sort(([keyA], [keyB]) => keyA.localeCompare(keyB)).map(([key, value]) => `
             <button class="option-btn" onclick="submitAnswer('${key}')" id="opt-${key}">
               <div class="option-label">${key}</div>
               <div class="option-text">${value}</div>
@@ -362,9 +362,11 @@ window.submitAnswer = (selectedKey) => {
   const box = document.getElementById('explanation-box');
   const exp = result.explanation;
   if (exp && typeof exp === 'object') {
-    const optHtml = Object.entries(exp.optionAnalysis || {}).map(([k, v]) =>
-      `<div class="opt-analysis"><span class="opt-key ${result.correctAnswer === k ? 'opt-correct' : ''}">${k}</span><span>${v}</span></div>`
-    ).join('');
+    const optHtml = Object.entries(exp.optionAnalysis || {})
+      .sort(([keyA], [keyB]) => keyA.localeCompare(keyB))
+      .map(([k, v]) =>
+        `<div class="opt-analysis"><span class="opt-key ${result.correctAnswer === k ? 'opt-correct' : ''}">${k}</span><span>${v}</span></div>`
+      ).join('');
     box.innerHTML = `
       <div class="exp-result-badge ${result.isCorrect ? 'badge-correct' : 'badge-wrong'}">
         ${result.isCorrect ? '✅ 答對了！' : `❌ 正確答案是 ${result.correctAnswer}`}
@@ -416,26 +418,118 @@ window.submitAnswer = (selectedKey) => {
   box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 };
 
-// 錯誤回報功能 — 從 Firestore 取得信箱
-window.reportError = async (questionId, questionNum, year, subject) => {
+// 錯誤回報功能 — 開啟 Modal
+window.reportError = (questionId, questionNum, year, subject) => {
+  const subjectName = SUBJECTS[subject] ? SUBJECTS[subject].name : subject;
+  
+  // Create modal element if it doesn't exist
+  let modal = document.getElementById('report-modal');
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.id = 'report-modal';
+    modal.className = 'modal-overlay hidden';
+    modal.innerHTML = `
+      <div class="modal-content animate-slide-up">
+        <div class="modal-header">
+          <h3>⚠️ 回報錯誤</h3>
+          <button class="modal-close" onclick="window.closeReportModal()">×</button>
+        </div>
+        <div class="modal-body">
+          <div class="report-meta" id="report-meta-info"></div>
+          <input type="hidden" id="report-question-id">
+          <input type="hidden" id="report-year">
+          <input type="hidden" id="report-subject">
+          <input type="hidden" id="report-question-num">
+          
+          <div class="form-group">
+            <label class="form-label">錯誤類型 (單選)</label>
+            <div class="report-types">
+              <label class="radio-label"><input type="radio" name="reportType" value="答案有誤" checked> 答案有誤</label>
+              <label class="radio-label"><input type="radio" name="reportType" value="詳解內容有誤"> 詳解內容有誤</label>
+              <label class="radio-label"><input type="radio" name="reportType" value="選項文字錯誤"> 選項文字錯誤</label>
+              <label class="radio-label"><input type="radio" name="reportType" value="其他"> 其他</label>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label class="form-label">詳細說明</label>
+            <textarea id="report-details" class="form-textarea" rows="4" placeholder="請簡述您發現的問題..."></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-outline" onclick="window.closeReportModal()">取消</button>
+          <button class="btn btn-primary" id="btn-submit-report" onclick="window.submitReport()">送出回報</button>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(modal);
+  }
+  
+  // Update meta info
+  document.getElementById('report-meta-info').innerText = `年度：${year}年 · 科目：${subjectName} · 第${questionNum}題`;
+  document.getElementById('report-question-id').value = questionId;
+  document.getElementById('report-year').value = year;
+  document.getElementById('report-subject').value = subjectName;
+  document.getElementById('report-question-num').value = questionNum;
+  
+  // Clear textarea
+  document.getElementById('report-details').value = '';
+  
+  // Reset button state
+  const btn = document.getElementById('btn-submit-report');
+  btn.innerText = '送出回報';
+  btn.disabled = false;
+  
+  // Show modal
+  modal.classList.remove('hidden');
+};
+
+window.closeReportModal = () => {
+  const modal = document.getElementById('report-modal');
+  if (modal) {
+    modal.classList.add('hidden');
+  }
+};
+
+window.submitReport = async () => {
+  const details = document.getElementById('report-details').value.trim();
+  if (!details) {
+    showToast('⚠️', '請填寫詳細說明');
+    return;
+  }
+  
+  const questionId = document.getElementById('report-question-id').value;
+  const year = document.getElementById('report-year').value;
+  const subjectName = document.getElementById('report-subject').value;
+  const questionNum = document.getElementById('report-question-num').value;
+  const typeEle = document.querySelector('input[name="reportType"]:checked');
+  const type = typeEle ? typeEle.value : '其他';
+  
+  const btn = document.getElementById('btn-submit-report');
+  btn.innerText = '傳送中...';
+  btn.disabled = true;
+  
   try {
-    const { doc, getDoc } = await import('firebase/firestore');
-    const configRef = doc(db, 'config', 'report');
-    const configSnap = await getDoc(configRef);
-    if (!configSnap.exists() || !configSnap.data().enabled) {
-      showToast('⚠️', '目前回報功能暫時關閉');
-      return;
-    }
-    const email = configSnap.data().email;
-    const subjectName = SUBJECTS[subject] ? SUBJECTS[subject].name : subject;
-    const mailSubject = encodeURIComponent(`[題目回報] ${year}年 ${subjectName} 第${questionNum}題 (${questionId})`);
-    const mailBody = encodeURIComponent(
-      `\n題目編號：${questionId}\n年度：${year}年\n科目：${subjectName}\n題號：第${questionNum}題\n\n錯誤類型（請勾選或說明）：\n□ 答案有誤\n□ 詳解內容有誤\n□ 選項文字錯誤\n□ 其他\n\n詳細說明：\n\n`
-    );
-    window.open(`mailto:${email}?subject=${mailSubject}&body=${mailBody}`, '_self');
+    const { collection, addDoc, serverTimestamp } = await import('firebase/firestore');
+    
+    await addDoc(collection(db, 'reports'), {
+      questionId,
+      year,
+      subject: subjectName,
+      questionNumber: questionNum,
+      type,
+      details,
+      timestamp: serverTimestamp(),
+      user: window.currentUser ? window.currentUser.email : 'anonymous'
+    });
+    
+    showToast('✅', '感謝您的回報！我們將盡快修正。');
+    window.closeReportModal();
   } catch (e) {
-    console.error('Report error:', e);
-    showToast('❌', '回報功能發生錯誤，請稍後再試');
+    console.error('Submit report error:', e);
+    showToast('❌', '送出失敗，請稍後再試。');
+    btn.innerText = '送出回報';
+    btn.disabled = false;
   }
 };
 
