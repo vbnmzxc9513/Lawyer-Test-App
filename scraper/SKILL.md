@@ -391,6 +391,10 @@ node exp_114_constitutional.js
 
 ## 步驟八：更新 Web 年份選擇器
 
+**⚠️ 需要更新兩處，缺一不可！**
+
+### 8-1. 歷屆測驗頁面的年份選擇器
+
 **檔案：** `src/main.js` 約 L228
 
 找到年度選擇器：
@@ -407,6 +411,22 @@ ${[114, 113, 112, 111].map(y => `
 ```javascript
 let selectedPracticeYear = 114;  // 原本是 113
 ```
+
+### 8-2. 試題搜尋頁面的年份篩選
+
+**檔案：** `src/main.js`，搜尋 `search-year-chip`
+
+找到年份篩選 chips：
+```html
+<label class="chip search-year-chip"><input type="checkbox" class="search-year-cb" value="113" checked hidden>113年</label>
+```
+
+在最前面加入新年份：
+```html
+<label class="chip search-year-chip"><input type="checkbox" class="search-year-cb" value="114" checked hidden>114年</label>
+```
+
+> **⚠️ 114 年教訓：** 搜尋頁面的年份篩選是硬編碼的 HTML，容易遺漏。新增年份時務必同時更新此處，否則使用者在搜尋頁面會找不到新年份的題目。
 
 ---
 
@@ -477,7 +497,7 @@ node merge.js --year 114
 node upload_to_firestore.js --year 114
 
 # 5. 撰寫詳解（使用 exp_114_*.js 腳本）
-# 6. 更新 web 年份選擇器（src/main.js L228）
+# 6. 更新 web 年份選擇器（src/main.js 兩處：年份陣列 + 搜尋頁年份篩選）
 # 7. 部署
 cd .. && npm run build && git add -A && git commit -m "feat: add 114" && git push
 ```
@@ -509,7 +529,9 @@ cd .. && npm run build && git add -A && git commit -m "feat: add 114" && git pus
 - 重置時間：太平洋時間午夜（台灣 ~15:00-16:00）
 
 ### Q: 年份選擇器沒有新年度？
-`src/main.js` 搜尋 `[114, 113` 的年份陣列，加入新年份。
+`src/main.js` 有**兩處**需要更新：
+1. 搜尋 `[114, 113` 的年份陣列（歷屆測驗頁）
+2. 搜尋 `search-year-chip` 的年份篩選 chips（試題搜尋頁）
 
 ### Q: 選項順序被打亂？
 PDF 解析時選項 A/B/C/D 可能因排版換行被錯誤分割。解決方式：取最後 4 個非空行作為 4 個選項。長選項（跨行）需手動合併。
