@@ -192,6 +192,11 @@ function renderHome() {
           <div class="qa-title">成就徽章</div>
           <div class="qa-desc">解鎖里程碑</div>
         </div>
+        <div class="quick-action-card" onclick="window.router.navigate('/prediction')">
+          <div class="qa-icon">🎯</div>
+          <div class="qa-title">落點預測</div>
+          <div class="qa-desc">模擬落點分析</div>
+        </div>
       </div>
     </div>
     ${renderTabBar()}
@@ -1931,5 +1936,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     console.warn('題庫同步失敗，將使用 Firestore 即時查詢:', e);
   }
 
-  router.loadRoute(window.location.pathname);
+  // Handle SPA redirect from 404.html
+  const params = new URLSearchParams(window.location.search);
+  const redirectPath = params.get('redirect');
+  if (redirectPath) {
+    window.history.replaceState(null, '', redirectPath);
+    router.loadRoute(redirectPath);
+  } else {
+    router.loadRoute(window.location.pathname);
+  }
 });
