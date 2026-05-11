@@ -174,6 +174,94 @@
   border-radius: var(--radius-full); margin: 0 auto var(--space-4);
 }
 
+/* ---- Report Modal (Error Report) ---- */
+.modal-overlay {
+  position: fixed; inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(4px);
+  display: flex; align-items: center; justify-content: center;
+  z-index: var(--z-modal);
+  animation: fadeIn 0.2s ease;
+}
+.modal-overlay.hidden { display: none; }
+
+.modal-content {
+  background: var(--color-surface-1);
+  width: 92%; max-width: 460px;
+  border-radius: var(--radius-2xl);
+  box-shadow: var(--shadow-xl);
+  overflow: hidden;
+  display: flex; flex-direction: column;
+  animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.modal-header {
+  padding: var(--space-4) var(--space-5);
+  border-bottom: var(--border-subtle);
+  display: flex; justify-content: space-between; align-items: center;
+}
+.modal-header h3 {
+  margin: 0; font-size: var(--text-lg);
+  font-weight: var(--font-bold);
+  color: var(--color-text-primary);
+}
+.modal-close {
+  background: none; border: none;
+  font-size: 1.5rem; line-height: 1;
+  color: var(--color-text-muted);
+  cursor: pointer; padding: var(--space-1);
+  border-radius: var(--radius-md);
+  transition: all var(--transition-fast);
+}
+.modal-close:hover {
+  background: rgba(0,0,0,0.05);
+  color: var(--color-text-primary);
+}
+.modal-body { padding: var(--space-5); }
+.report-meta {
+  font-size: var(--text-xs);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-4);
+  padding: var(--space-3);
+  background: var(--color-surface-3);
+  border-radius: var(--radius-lg);
+}
+.form-group { margin-bottom: var(--space-4); }
+.report-types {
+  display: flex; flex-direction: column; gap: var(--space-2);
+}
+.radio-label {
+  display: flex; align-items: center; gap: var(--space-2);
+  font-size: var(--text-sm); cursor: pointer;
+  color: var(--color-text-secondary);
+  padding: var(--space-1) 0;
+}
+.radio-label input[type="radio"] {
+  accent-color: var(--color-primary);
+  width: 16px; height: 16px;
+  cursor: pointer;
+}
+.form-textarea {
+  width: 100%; padding: var(--space-3);
+  border: var(--border-light);
+  border-radius: var(--radius-lg);
+  font-family: var(--font-primary);
+  font-size: var(--text-sm);
+  color: var(--color-text-primary);
+  background: var(--color-bg-card);
+  box-sizing: border-box;
+  resize: vertical;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+.form-textarea:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+.modal-footer {
+  padding: var(--space-3) var(--space-5) var(--space-5);
+  display: flex; justify-content: flex-end; gap: var(--space-3);
+}
+
 /* ---- Toast ---- */
 .toast-container { position: fixed; top: var(--space-4); left: 50%; transform: translateX(-50%); z-index: var(--z-toast); width: calc(100% - var(--space-8)); max-width: var(--max-width); }
 .toast {
