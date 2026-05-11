@@ -54,11 +54,14 @@ let selectedPracticeYear = 114;
 let currentQuizMeta = { year: null, subject: null };
 
 // ---- SPA 簡易路由系統 ----
+// GitHub Pages 部署在 /Lawyer-Test-App/ 子路徑
+const BASE_PATH = '/Lawyer-Test-App';
+
 class Router {
   constructor() {
     this.routes = {};
     window.addEventListener('popstate', () => {
-      this.loadRoute(window.location.pathname);
+      this.loadRoute(this._stripBase(window.location.pathname));
     });
   }
 
@@ -67,18 +70,26 @@ class Router {
   }
 
   navigate(path, state = {}) {
-    window.history.pushState(state, '', path);
+    window.history.pushState(state, '', BASE_PATH + path);
     this.loadRoute(path, state);
   }
 
   loadRoute(path, state = {}) {
-    const renderFunction = this.routes[path] || this.routes['/'];
+    const route = this._stripBase(path);
+    const renderFunction = this.routes[route] || this.routes['/'];
     if (renderFunction) {
       document.getElementById('app').innerHTML = '';
       Promise.resolve(renderFunction(state)).then(() => {
-        this.updateTabBar(path);
+        this.updateTabBar(route);
       });
     }
+  }
+
+  _stripBase(path) {
+    if (path.startsWith(BASE_PATH)) {
+      path = path.slice(BASE_PATH.length) || '/';
+    }
+    return path;
   }
 
   updateTabBar(path) {
