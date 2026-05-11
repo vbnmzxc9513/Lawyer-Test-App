@@ -1,0 +1,41 @@
+[
+  {
+    "id": "113-4301-securities-37",
+    "questionNumber": 37,
+    "subject": "securities",
+    "answer": "D",
+    "questionText": "A 公司為一家從事醫療器材製造的上市公司，該公司設有薪資報酬委員會。甲最近剛被選任為 A 公司薪資報酬委員會成員，由於甲是首次擔任薪資報酬委員會成員，因此想要了解下列有關薪資報酬委員會之敘述，何者錯誤？",
+    "options": {
+      "A": "薪資報酬委員會成員由董事會決議委任之，其人數不得少於三人",
+      "B": "薪資報酬委員會得經決議，委任律師、會計師或其他專業人員，就行使職權有關之事項為必要之查核或提供諮詢，其費用由公司負擔",
+      "C": "A 公司董事會通過之薪資報酬如優於薪資報酬委員會之建議，除應就差異情形及原因於董事會議事錄載明外，並應於董事會通過之即日起算二日內於主管機關指定之資訊申報網站辦理公告申報",
+      "D": "薪資報酬委員會應至少每年召開四次，並於薪資報酬委員會組織規程中訂明之"
+    }
+  },
+  {
+    "id": "113-4301-securities-39",
+    "questionNumber": 39,
+    "subject": "securities",
+    "answer": "A",
+    "questionText": "股票上市之 A 公司有法定盈餘公積新臺幣（下同）5 億元，保留盈餘 1 億元，發行股份溢價及已實現之資本公積 2 億元，A 公司擬買回股份，依證券交易法之規定，其買回總金額之上限為何？",
+    "options": {
+      "A": "3 億元",
+      "B": "6 億元",
+      "C": "7 億元",
+      "D": "8 億元"
+    }
+  },
+  {
+    "id": "113-4301-securities-63",
+    "questionNumber": 63,
+    "subject": "securities",
+    "answer": "D",
+    "questionText": "The term as used in Taiwan’s Securities and Exchange Act means an explanatory written statementthat an issuer provides to the general public for the purpose of offering or selling securities.",
+    "options": {
+      "A": "warranty",
+      "B": "proxy statement",
+      "C": "representation",
+      "D": "prospectus"
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "113-4301-company-12",
+    "questionNumber": 12,
+    "subject": "company",
+    "answer": "C",
+    "questionText": "股票未公開發行之 A 股份有限公司擁有股東約 50 人，下列對於該公司董事會與董事之相關敘述，何者錯誤？",
+    "options": {
+      "A": "該公司得依章程規定不設董事會",
+      "B": "董事選舉必須採累積投票制",
+      "C": "董事選舉必須採候選人提名制",
+      "D": "董事缺額達三分之一時，應於 30 日內召開股東臨時會補選"
+    }
+  },
+  {
+    "id": "113-4301-company-14",
+    "questionNumber": 14,
+    "subject": "company",
+    "answer": "D",
+    "questionText": "A 股份有限公司（下稱 A 公司）為一從事食品加工的非公開發行公司，該公司章程規定公司股份總數為 100 萬股，全數均為普通股，並以每股票面金額新臺幣 10 元全數發行。目前 A 公司之實收資本額為新臺幣 1,000 萬元，其中 X 股份有限公司（下稱 X 公司）持有 A 公司股份 35 萬股，X 公司之從屬公司 Y 股份有限公司亦持有 A 公司股份 25 萬股。其後，A 公司為擴大公司規模，打算再發行 50 萬普通股。新股發行除依法保留總數百分之十的股份由 A 公司員工承購外，其餘全數由原股東按其原有持股比例認購完畢。依公司法規定，下列敘述何者正確？",
+    "options": {
+      "A": "A 公司此次發行新股只要董事會同意即可，無須經股東會同意",
+      "B": "X 公司於此次發行新股僅能以現金出資方式認購，不得以 A 公司事業所需之財產為出資",
+      "C": "A 公司此次發行新股保留由原股東認購者，A 公司得限制其在 2 年內不得轉讓",
+      "D": "A 公司不論增資發行新股前後，X 公司與 A 公司之關係屬於控制公司與從屬公司之關係"
+    }
+  },
+  {
+    "id": "113-4301-company-15",
+    "questionNumber": 15,
+    "subject": "company",
+    "answer": "A",
+    "questionText": "A 醫院轉投資 B 有限公司、C 股份有限公司、D 商號、E 有限合夥，均取得有表決權之股份或出資額超過半數。此五家組織中，有幾家彼此間可能構成公司法上之關係企業？",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    }
+  },
+  {
+    "id": "113-4301-company-62",
+    "questionNumber": 62,
+    "subject": "company",
+    "answer": "D",
+    "questionText": "Based on Taiwan’s Company Act, which of the following can be applied to the public company?",
+    "options": {
+      "A": "Multiple voting rights shares",
+      "B": "Voting Agreement",
+      "C": "Restrictions on the transfer of shares",
+      "D": "No voting rights shares"
+    }
+  }
+]
