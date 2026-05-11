@@ -234,41 +234,62 @@ for k, v in sorted(c.items()):
 
 ---
 
-## 🚨 步驟 5.5：答案驗證（必做，禁止跳過）
+## 🚨 步驟 5.5：答案驗證 SOP（必做，禁止跳過）
 
-> **⚠️ 114 年慘痛教訓：** PDF parser 從答案 PDF 提取的答案有 189/300 題是錯的！
-> 答案 PDF 的文字排列方式不穩定，parser 容易錯位。
-> **PDF parser 提取的答案絕對不可信任，必須用官方答案圖片比對。**
+> **⚠️ 111-114 年慘痛教訓：** 四個年度共 1200 題中有 **715 題答案是錯的（~60%）**！  
+> 原因：(1) PDF text parser 提取的答案完全不可信 (2) 修正腳本只讀 local JSON 漏掉 Firestore-only 的題目  
+> **此 SOP 已驗證有效，絕對禁止省略任何步驟。**
 
-### 正確做法：答案只從官方標準答案 PDF 的「圖片」人工讀取
+### Phase 1：取得官方答案（唯一信任來源）
 
 1. **取得官方標準答案 PDF**（四份：2301/1301/3301/4301）
-2. **轉為圖片**或直接打開 PDF 用肉眼讀取表格
-3. **手動建立 official answer dict**（如下格式），逐格比對：
-
+2. **用 `render_answer_pdfs.py` 轉為圖片**：
+```bash
+python render_answer_pdfs.py  # 產出 pdfs/{year}/answer_images/*.png
+```
+3. **用 `view_file` 逐張讀取圖片**，肉眼抄錄答案表格到 dict：
 ```javascript
-// 以 2301 為例
+// 以 2301 為例，每 10 題一行方便比對
 const official_2301 = {
   1:'A', 2:'D', 3:'B', 4:'D', 5:'A', 6:'D', 7:'A', 8:'D', 9:'A', 10:'B',
-  // ... 每 10 題一行，方便比對
+  // ...
 };
 ```
 
-4. **執行比對腳本**（參考 `verify_114_answers.py`）：
+### Phase 2：修正 Firestore（必須直接掃 Firestore）
+
+> **⚠️ 關鍵教訓：** 修正腳本 **禁止只從 local JSON 讀 ID**。  
+> Firestore 裡可能有 local JSON 不存在的題目，會被遺漏。  
+> **必須用 `db.collection('questions').where('year','==',{year}).get()` 掃全部。**
+
+參考腳本：`fix_firestore_only_answers.js`（掃描 Firestore + 比對 + 修正）
+
+### Phase 3：修後驗證（Spot Check）
+
+> **⚠️ 修完不做驗證等於沒修。**
+
+1. 從每年每卷隨機選 2-3 題（共 ~48 題），寫入 `spot_check_firestore.js`
+2. 直接從 Firestore 讀取答案比對官方圖片
+3. **必須 48/48 ALL PASS 才算完成**
+
 ```bash
-python verify_{year}_answers.py
+node spot_check_firestore.js
+# 預期輸出：SPOT CHECK RESULT: 48 PASS, 0 FAIL, 0 MISSING
 ```
 
-5. **如果有 mismatch → 用官方答案覆寫 Firestore**（參考 `fix_114_all_answers.js`）
-
 ### ❌ 禁止事項
-- ❌ 不可信任 PDF text parser 提取的答案字母
+- ❌ 不可信任 PDF text parser（`fitz.get_text()`）提取的答案字母
 - ❌ 不可用 AI 推理答案
-- ❌ 不可跳過此步驟直接上傳
+- ❌ 不可跳過此步驟直接上傳或寫詳解
 - ❌ 不可先寫詳解再驗證答案（答案錯 → 詳解全部重做）
+- ❌ 修正腳本不可只讀 local JSON，必須直接查 Firestore
+- ❌ 修完不可跳過 Spot Check
 
 ### ✅ 正確順序
-1. 先驗證答案 → 2. 答案正確後才寫詳解 → 3. 上傳
+1. 官方 PDF → 圖片 → 人工抄錄 answer dict
+2. Firestore 全量掃描 + 修正
+3. Spot Check 驗證（48/48 PASS）
+4. 確認通過後才寫詳解
 
 ---
 
