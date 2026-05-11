@@ -1597,6 +1597,7 @@ function renderSearch() {
             <div class="search-filter-section">
               <div class="text-xs text-muted mb-1">年份篩選</div>
               <div class="search-filter-chips">
+                <label class="chip search-year-chip"><input type="checkbox" class="search-year-cb" value="114" checked hidden>114年</label>
                 <label class="chip search-year-chip"><input type="checkbox" class="search-year-cb" value="113" checked hidden>113年</label>
                 <label class="chip search-year-chip"><input type="checkbox" class="search-year-cb" value="112" checked hidden>112年</label>
                 <label class="chip search-year-chip"><input type="checkbox" class="search-year-cb" value="111" checked hidden>111年</label>
