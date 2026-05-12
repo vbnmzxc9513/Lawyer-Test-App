@@ -1,0 +1,16 @@
+{
+  "summary": {
+    "total": 757,
+    "good": 757,
+    "lowQuality": 0,
+    "incomplete": 0,
+    "noExp": 0,
+    "notFound": 0,
+    "stringExp": 0,
+    "errors": []
+  },
+  "lowQualityIds": [],
+  "incompleteIds": [],
+  "noExpIds": [],
+  "notFoundIds": []
+}
