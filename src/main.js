@@ -644,83 +644,86 @@ function renderDashboard() {
     </div>
   `;
 
-  // ---- 2. 科目精熟度（大類）—— 按正確率排序，弱項在前 ----
+  // ---- 2. 科目精熟度 —— 每個科目卡片內嵌自己的 drill-down ----
   const sortedSubjects = Object.entries(subjectTagStats)
     .map(([id, stat]) => ({ id, ...stat, meta: SUBJECTS[id] }))
     .filter(s => s.meta)
     .sort((a, b) => a.accuracy - b.accuracy);
 
-  const subjectMasteryHtml = sortedSubjects.map((s, idx) => {
+  const subjectCardsHtml = sortedSubjects.map((s, idx) => {
     const acc = Math.round(s.accuracy);
     const colorClass = acc >= 70 ? 'success' : (acc >= 50 ? 'warning' : 'error');
-    const tagCount = Object.keys(s.tags).length;
-    const weakTags = Object.entries(s.tags).filter(([, t]) => t.accuracy < 60).length;
-
-    return `
-      <div class="mastery-card" onclick="window.toggleSubjectDrill('${s.id}')">
-        <div class="mastery-header">
-          <div class="mastery-left">
-            <span class="mastery-rank ${colorClass}">${idx + 1}</span>
-            <span class="mastery-icon">${s.meta.icon}</span>
-            <div class="mastery-info">
-              <div class="mastery-name">${s.meta.name}</div>
-              <div class="mastery-meta">${s.correct}/${s.total} 題${weakTags > 0 ? ` · <span class="text-error">${weakTags} 個弱點觀念</span>` : ''}</div>
-            </div>
-          </div>
-          <div class="mastery-right">
-            <div class="mastery-rate text-${colorClass}">${acc}%</div>
-            <span class="mastery-arrow" id="drill-arrow-${s.id}">▸</span>
-          </div>
-        </div>
-        <div class="mastery-bar">
-          <div class="progress-bar"><div class="progress-bar-fill ${colorClass}" style="width: ${acc}%;"></div></div>
-        </div>
-      </div>
-    `;
-  }).join('');
-
-  // ---- 3. 科目 Drill-down 面板（小類）——預先渲染為隱藏，點擊展開 ----
-  const drillPanelsHtml = sortedSubjects.map(s => {
     const tagEntries = Object.entries(s.tags)
       .map(([tag, stat]) => ({ tag, ...stat }))
-      .sort((a, b) => a.accuracy - b.accuracy); // 弱項在前
+      .sort((a, b) => a.accuracy - b.accuracy);
+    const weakTags = tagEntries.filter(t => t.accuracy < 60).length;
 
+    // ---- 小類觀念標籤面板（內嵌在卡片內） ----
+    let drillInnerHtml = '';
     if (tagEntries.length === 0) {
-      return `<div class="drill-panel hidden" id="drill-${s.id}">
-        <div class="text-sm text-muted" style="padding: 12px 16px;">此科目目前沒有觀念標籤資料</div>
-      </div>`;
+      drillInnerHtml = `
+        <div class="drill-inline hidden" id="drill-${s.id}">
+          <div class="drill-empty">
+            <span class="drill-empty-icon">🏷️</span>
+            <span>此科目還沒有觀念標籤統計，去做題後即可看到分析</span>
+          </div>
+        </div>`;
+    } else {
+      const tagListHtml = tagEntries.map(t => {
+        const tAcc = Math.round(t.accuracy);
+        const tColor = tAcc >= 70 ? 'success' : (tAcc >= 50 ? 'warning' : 'error');
+        const isWeak = tAcc < 50;
+        return `
+          <div class="drill-tag ${isWeak ? 'is-weak' : ''}" onclick="event.stopPropagation(); window.startTagQuiz('${t.tag.replace(/'/g, "\\'")}')">
+            <div class="drill-tag-left">
+              <span class="drill-tag-dot ${tColor}"></span>
+              <span class="drill-tag-name">${t.tag}</span>
+            </div>
+            <div class="drill-tag-right">
+              <span class="drill-tag-stat">${t.correct}/${t.total}</span>
+              <span class="drill-tag-rate text-${tColor}">${tAcc}%</span>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      drillInnerHtml = `
+        <div class="drill-inline hidden" id="drill-${s.id}">
+          <div class="drill-inline-header">
+            <span>🏷️ 觀念分析（${tagEntries.length} 個標籤）</span>
+            <span class="text-xs text-muted">點擊標籤可練習</span>
+          </div>
+          <div class="drill-list">${tagListHtml}</div>
+        </div>`;
     }
 
-    const tagListHtml = tagEntries.map(t => {
-      const tAcc = Math.round(t.accuracy);
-      const tColor = tAcc >= 70 ? 'success' : (tAcc >= 50 ? 'warning' : 'error');
-      const isWeak = tAcc < 50;
-      return `
-        <div class="drill-tag ${isWeak ? 'is-weak' : ''}" onclick="event.stopPropagation(); window.startTagQuiz('${t.tag.replace(/'/g, "\\'")}')">
-          <div class="drill-tag-left">
-            <span class="drill-tag-dot ${tColor}"></span>
-            <span class="drill-tag-name">${t.tag}</span>
-          </div>
-          <div class="drill-tag-right">
-            <span class="drill-tag-stat">${t.correct}/${t.total}</span>
-            <span class="drill-tag-rate text-${tColor}">${tAcc}%</span>
-          </div>
-        </div>
-      `;
-    }).join('');
-
     return `
-      <div class="drill-panel hidden" id="drill-${s.id}">
-        <div class="drill-header">
-          <span class="text-xs text-muted">${s.meta.icon} ${s.meta.name} — 觀念標籤（小類）</span>
-          <span class="text-xs text-muted">${tagEntries.length} 個觀念</span>
+      <div class="mastery-accordion" id="accordion-${s.id}">
+        <div class="mastery-card" onclick="window.toggleSubjectDrill('${s.id}')">
+          <div class="mastery-header">
+            <div class="mastery-left">
+              <span class="mastery-rank ${colorClass}">${idx + 1}</span>
+              <span class="mastery-icon">${s.meta.icon}</span>
+              <div class="mastery-info">
+                <div class="mastery-name">${s.meta.name}</div>
+                <div class="mastery-meta">${s.correct}/${s.total} 題${weakTags > 0 ? ` · <span class="text-error">${weakTags} 個弱點</span>` : (tagEntries.length > 0 ? ` · ${tagEntries.length} 個觀念` : '')}</div>
+              </div>
+            </div>
+            <div class="mastery-right">
+              <div class="mastery-rate text-${colorClass}">${acc}%</div>
+              <span class="mastery-arrow" id="drill-arrow-${s.id}">▸</span>
+            </div>
+          </div>
+          <div class="mastery-bar">
+            <div class="progress-bar"><div class="progress-bar-fill ${colorClass}" style="width: ${acc}%;"></div></div>
+          </div>
         </div>
-        <div class="drill-list">${tagListHtml}</div>
+        ${drillInnerHtml}
       </div>
     `;
   }).join('');
 
-  // ---- 4. 弱點警報 ——找出最弱的 5 個觀念 ----
+  // ---- 3. 弱點警報 ——找出最弱的 5 個觀念 ----
   const allTags = [];
   sortedSubjects.forEach(s => {
     Object.entries(s.tags).forEach(([tag, stat]) => {
@@ -772,11 +775,10 @@ function renderDashboard() {
 
       <div class="card section mb-4">
         <div class="card-header-row">
-          <h3>科目精熟度<span class="text-xs text-muted ml-2">（大類）</span></h3>
-          <span class="text-xs text-muted">依正確率排序 · 弱項在前</span>
+          <h3>科目精熟度</h3>
+          <span class="text-xs text-muted">弱項在前 · 點擊展開觀念</span>
         </div>
-        <div class="mastery-list">${subjectMasteryHtml}</div>
-        ${drillPanelsHtml}
+        <div class="mastery-list">${subjectCardsHtml}</div>
       </div>
 
       <div class="card section mb-4">
@@ -802,19 +804,34 @@ function renderDashboard() {
   }, 120);
 }
 
-// 科目展開/收合
+// 科目展開/收合（手風琴模式）
 window.toggleSubjectDrill = (subjectId) => {
   const panel = document.getElementById(`drill-${subjectId}`);
   const arrow = document.getElementById(`drill-arrow-${subjectId}`);
+  const accordion = document.getElementById(`accordion-${subjectId}`);
   if (!panel) return;
+
   const isOpen = !panel.classList.contains('hidden');
-  // 先收合所有其他面板
-  document.querySelectorAll('.drill-panel').forEach(p => p.classList.add('hidden'));
-  document.querySelectorAll('.mastery-arrow').forEach(a => { a.textContent = '▸'; });
+
+  // 先收合所有面板
+  document.querySelectorAll('.drill-inline').forEach(p => p.classList.add('hidden'));
+  document.querySelectorAll('.mastery-arrow').forEach(a => {
+    a.textContent = '▸';
+    a.style.transform = '';
+  });
+  document.querySelectorAll('.mastery-accordion').forEach(a => a.classList.remove('is-expanded'));
+
   if (!isOpen) {
     panel.classList.remove('hidden');
-    if (arrow) arrow.textContent = '▾';
-    panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    if (arrow) {
+      arrow.textContent = '▾';
+      arrow.style.transform = 'rotate(0deg)';
+    }
+    if (accordion) accordion.classList.add('is-expanded');
+    // 平滑滾動到展開的卡片
+    setTimeout(() => {
+      accordion?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 50);
   }
 };
 
@@ -2073,6 +2090,52 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   } catch (e) {
     console.warn('題庫同步失敗，將使用 Firestore 即時查詢:', e);
+  }
+
+  // ---- 一次性遷移：為舊歷史紀錄補上 tags ----
+  try {
+    const MIGRATION_KEY = 'lawyer_exam_tags_migrated_v2';
+    if (!localStorage.getItem(MIGRATION_KEY)) {
+      const historyRaw = localStorage.getItem('lawyer_exam_history');
+      if (historyRaw) {
+        const history = JSON.parse(historyRaw);
+        const needsMigration = history.some(r => !r.tags || r.tags.length === 0);
+        if (needsMigration) {
+          // 建立 questionId → tags 查詢表
+          const allQuestions = await questionCache.getAllQuestions();
+          if (allQuestions && allQuestions.length > 0) {
+            const tagMap = {};
+            allQuestions.forEach(q => {
+              if (!q.id) return;
+              // 優先使用 tags 陣列，fallback 到 tag 字串
+              let tags = q.tags;
+              if ((!tags || tags.length === 0) && q.tag && typeof q.tag === 'string') {
+                tags = q.tag.split(',').map(t => t.trim()).filter(Boolean);
+              }
+              if (tags && tags.length > 0) {
+                tagMap[q.id] = tags;
+              }
+            });
+
+            let enriched = 0;
+            history.forEach(record => {
+              if ((!record.tags || record.tags.length === 0) && tagMap[record.questionId]) {
+                record.tags = tagMap[record.questionId];
+                enriched++;
+              }
+            });
+
+            if (enriched > 0) {
+              localStorage.setItem('lawyer_exam_history', JSON.stringify(history));
+              console.log(`🏷️ 已為 ${enriched} 筆舊歷史紀錄補上觀念標籤`);
+            }
+          }
+        }
+      }
+      localStorage.setItem(MIGRATION_KEY, Date.now().toString());
+    }
+  } catch (e) {
+    console.warn('Tags migration failed (non-critical):', e);
   }
 
   // Handle SPA redirect from 404.html

@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-05-12T17:00:29.755Z",
+  "summary": {
+    "totalChecked": 1200,
+    "totalWithExp": 1190,
+    "totalMismatch": 0,
+    "totalAnswerWrong": 0,
+    "totalNoExp": 10,
+    "mismatchRate": "0.0%"
+  },
+  "byYear": {
+    "111": {
+      "total": 300,
+      "withExp": 295,
+      "mismatch": 0,
+      "answerWrong": 0,
+      "noExp": 5,
+      "byType": {
+        "UNCLEAR_MARKING": 27
+      }
+    },
+    "112": {
+      "total": 300,
+      "withExp": 295,
+      "mismatch": 0,
+      "answerWrong": 0,
+      "noExp": 5,
+      "byType": {
+        "UNCLEAR_MARKING": 38
+      }
+    },
+    "113": {
+      "total": 300,
+      "withExp": 300,
+      "mismatch": 0,
+      "answerWrong": 0,
+      "noExp": 0,
+      "byType": {
+        "UNCLEAR_MARKING": 41
+      }
+    },
+    "114": {
+      "total": 300,
+      "withExp": 300,
+      "mismatch": 0,
+      "answerWrong": 0,
+      "noExp": 0,
+      "byType": {
+        "UNCLEAR_MARKING": 3
+      }
+    }
+  },
+  "mismatches": []
+}

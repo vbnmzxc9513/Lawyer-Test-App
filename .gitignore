@@ -29,6 +29,8 @@ scraper/prompts/
 scraper/ai_results/
 scraper/prompt_output.txt
 scraper/serviceAccountKey.json
+scraper/config/serviceAccountKey.json
+*serviceAccountKey.json
 scraper/PastExam/
 scraper/data/
 

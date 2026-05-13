@@ -1,0 +1,1795 @@
+{
+  "suspicious": [
+    {
+      "id": "111-2301-international_private-75",
+      "subject": "international_private",
+      "qTerms": "起訴, 涉外",
+      "expTerms": "物權, 不當得利, 法律行為, 準據法",
+      "qSnippet": "向我國法院起訴之涉外事件，下列敘述何者正確？",
+      "ccSnippet": "當事人合意選法僅限於「債之關係」"
+    }
+  ],
+  "shortExp": [],
+  "thinOA": [
+    {
+      "id": "111-1301-criminal-01",
+      "thinCount": 2,
+      "sample": "A:2 B:57 C:2 D:15"
+    },
+    {
+      "id": "111-1301-criminal-02",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:3 D:73"
+    },
+    {
+      "id": "111-1301-criminal-03",
+      "thinCount": 3,
+      "sample": "A:3 B:59 C:3 D:3"
+    },
+    {
+      "id": "111-1301-criminal-04",
+      "thinCount": 3,
+      "sample": "A:60 B:3 C:3 D:3"
+    },
+    {
+      "id": "111-1301-criminal-05",
+      "thinCount": 3,
+      "sample": "A:55 B:3 C:3 D:3"
+    },
+    {
+      "id": "111-1301-criminal-06",
+      "thinCount": 3,
+      "sample": "A:3 B:89 C:3 D:3"
+    },
+    {
+      "id": "111-1301-criminal-07",
+      "thinCount": 3,
+      "sample": "A:68 B:3 C:3 D:3"
+    },
+    {
+      "id": "111-1301-criminal-08",
+      "thinCount": 3,
+      "sample": "A:9 B:9 C:69 D:9"
+    },
+    {
+      "id": "111-1301-criminal-09",
+      "thinCount": 3,
+      "sample": "A:66 B:3 C:3 D:3"
+    },
+    {
+      "id": "111-1301-criminal-10",
+      "thinCount": 3,
+      "sample": "A:74 B:3 C:3 D:3"
+    },
+    {
+      "id": "111-1301-criminal-11",
+      "thinCount": 2,
+      "sample": "A:15 B:66 C:2 D:2"
+    },
+    {
+      "id": "111-1301-criminal-12",
+      "thinCount": 2,
+      "sample": "A:2 B:49 C:2 D:15"
+    },
+    {
+      "id": "111-1301-criminal-14",
+      "thinCount": 3,
+      "sample": "A:3 B:65 C:3 D:3"
+    },
+    {
+      "id": "111-1301-criminal-15",
+      "thinCount": 2,
+      "sample": "A:2 B:2 C:79 D:15"
+    },
+    {
+      "id": "111-1301-criminal-16",
+      "thinCount": 2,
+      "sample": "A:2 B:15 C:2 D:72"
+    },
+    {
+      "id": "111-1301-criminal-17",
+      "thinCount": 2,
+      "sample": "A:63 B:2 C:15 D:2"
+    },
+    {
+      "id": "111-1301-criminal-18",
+      "thinCount": 2,
+      "sample": "A:46 B:2 C:2 D:15"
+    },
+    {
+      "id": "111-1301-criminal-19",
+      "thinCount": 2,
+      "sample": "A:15 B:2 C:2 D:75"
+    },
+    {
+      "id": "111-1301-criminal-20",
+      "thinCount": 2,
+      "sample": "A:15 B:2 C:59 D:2"
+    },
+    {
+      "id": "111-1301-criminal-21",
+      "thinCount": 2,
+      "sample": "A:2 B:60 C:2 D:15"
+    },
+    {
+      "id": "111-1301-criminal-22",
+      "thinCount": 2,
+      "sample": "A:73 B:2 C:15 D:2"
+    },
+    {
+      "id": "111-1301-criminal-23",
+      "thinCount": 2,
+      "sample": "A:2 B:15 C:65 D:2"
+    },
+    {
+      "id": "111-1301-criminal-24",
+      "thinCount": 3,
+      "sample": "A:110 B:3 C:3 D:3"
+    },
+    {
+      "id": "111-1301-criminal-25",
+      "thinCount": 2,
+      "sample": "A:2 B:66 C:15 D:2"
+    },
+    {
+      "id": "111-1301-criminal-26",
+      "thinCount": 3,
+      "sample": "A:78 B:3 C:3 D:3"
+    },
+    {
+      "id": "111-1301-criminal-27",
+      "thinCount": 3,
+      "sample": "A:3 B:70 C:3 D:3"
+    },
+    {
+      "id": "111-1301-criminal-28",
+      "thinCount": 2,
+      "sample": "A:15 B:2 C:2 D:62"
+    },
+    {
+      "id": "111-4301-negotiable_instruments-28",
+      "thinCount": 4,
+      "sample": "A:6 B:6 C:6 D:6"
+    },
+    {
+      "id": "111-1301-criminal-29",
+      "thinCount": 2,
+      "sample": "A:2 B:15 C:66 D:2"
+    },
+    {
+      "id": "111-4301-negotiable_instruments-29",
+      "thinCount": 4,
+      "sample": "A:6 B:6 C:6 D:6"
+    },
+    {
+      "id": "111-1301-criminal-30",
+      "thinCount": 2,
+      "sample": "A:2 B:61 C:2 D:15"
+    },
+    {
+      "id": "111-4301-negotiable_instruments-30",
+      "thinCount": 4,
+      "sample": "A:6 B:6 C:6 D:6"
+    },
+    {
+      "id": "111-1301-criminal-31",
+      "thinCount": 2,
+      "sample": "A:58 B:2 C:15 D:2"
+    },
+    {
+      "id": "111-2301-administrative-32",
+      "thinCount": 2,
+      "sample": "A:33 B:40 C:2 D:2"
+    },
+    {
+      "id": "111-1301-criminal-33",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:71 D:3"
+    },
+    {
+      "id": "111-1301-criminal-34",
+      "thinCount": 2,
+      "sample": "A:21 B:9 C:9 D:83"
+    },
+    {
+      "id": "111-1301-criminal-35",
+      "thinCount": 2,
+      "sample": "A:15 B:2 C:2 D:73"
+    },
+    {
+      "id": "111-1301-criminal_procedure-36",
+      "thinCount": 2,
+      "sample": "A:2 B:2 C:15 D:74"
+    },
+    {
+      "id": "111-1301-criminal_procedure-37",
+      "thinCount": 2,
+      "sample": "A:2 B:15 C:66 D:2"
+    },
+    {
+      "id": "111-1301-criminal_procedure-38",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:3 D:75"
+    },
+    {
+      "id": "111-4301-securities-38",
+      "thinCount": 3,
+      "sample": "A:22 B:9 C:9 D:9"
+    },
+    {
+      "id": "111-1301-criminal_procedure-39",
+      "thinCount": 2,
+      "sample": "A:2 B:2 C:69 D:15"
+    },
+    {
+      "id": "111-1301-criminal_procedure-40",
+      "thinCount": 2,
+      "sample": "A:2 B:2 C:15 D:76"
+    },
+    {
+      "id": "111-2301-administrative-40",
+      "thinCount": 2,
+      "sample": "A:22 B:48 C:3 D:3"
+    },
+    {
+      "id": "111-1301-criminal_procedure-41",
+      "thinCount": 2,
+      "sample": "A:2 B:69 C:2 D:15"
+    },
+    {
+      "id": "111-1301-criminal_procedure-42",
+      "thinCount": 2,
+      "sample": "A:2 B:15 C:2 D:87"
+    },
+    {
+      "id": "111-1301-criminal_procedure-43",
+      "thinCount": 2,
+      "sample": "A:2 B:2 C:69 D:15"
+    },
+    {
+      "id": "111-1301-criminal_procedure-44",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:67 D:3"
+    },
+    {
+      "id": "111-4301-securities-44",
+      "thinCount": 3,
+      "sample": "A:9 B:9 C:9 D:14"
+    },
+    {
+      "id": "111-1301-criminal_procedure-45",
+      "thinCount": 2,
+      "sample": "A:2 B:2 C:15 D:59"
+    },
+    {
+      "id": "111-1301-criminal_procedure-46",
+      "thinCount": 2,
+      "sample": "A:50 B:2 C:2 D:15"
+    },
+    {
+      "id": "111-4301-enforcement-46",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "111-1301-criminal_procedure-47",
+      "thinCount": 2,
+      "sample": "A:15 B:2 C:2 D:92"
+    },
+    {
+      "id": "111-4301-enforcement-47",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "111-1301-criminal_procedure-48",
+      "thinCount": 2,
+      "sample": "A:77 B:2 C:2 D:15"
+    },
+    {
+      "id": "111-4301-enforcement-48",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "111-1301-criminal_procedure-49",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:3 D:75"
+    },
+    {
+      "id": "111-2301-administrative-49",
+      "thinCount": 2,
+      "sample": "A:21 B:53 C:3 D:3"
+    },
+    {
+      "id": "111-4301-enforcement-49",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "111-1301-criminal_procedure-50",
+      "thinCount": 3,
+      "sample": "A:64 B:3 C:3 D:3"
+    },
+    {
+      "id": "111-2301-administrative-50",
+      "thinCount": 2,
+      "sample": "A:110 B:38 C:3 D:3"
+    },
+    {
+      "id": "111-4301-enforcement-50",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "111-4301-enforcement-51",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "111-1301-criminal_procedure-52",
+      "thinCount": 2,
+      "sample": "A:58 B:2 C:15 D:2"
+    },
+    {
+      "id": "111-1301-criminal_procedure-53",
+      "thinCount": 2,
+      "sample": "A:2 B:70 C:2 D:15"
+    },
+    {
+      "id": "111-1301-criminal_procedure-55",
+      "thinCount": 2,
+      "sample": "A:60 B:15 C:2 D:2"
+    },
+    {
+      "id": "111-1301-criminal_procedure-56",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:3 D:77"
+    },
+    {
+      "id": "111-4301-legal_english-56",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "111-1301-criminal_procedure-57",
+      "thinCount": 3,
+      "sample": "A:75 B:3 C:3 D:3"
+    },
+    {
+      "id": "111-4301-legal_english-57",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "111-1301-criminal_procedure-58",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:3 D:82"
+    },
+    {
+      "id": "111-4301-legal_english-58",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "111-1301-criminal_procedure-59",
+      "thinCount": 3,
+      "sample": "A:81 B:3 C:3 D:3"
+    },
+    {
+      "id": "111-4301-legal_english-59",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "111-1301-criminal_procedure-60",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:3 D:79"
+    },
+    {
+      "id": "111-4301-legal_english-60",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "111-1301-legal_ethics-61",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:70 D:3"
+    },
+    {
+      "id": "111-2301-international_public-61",
+      "thinCount": 2,
+      "sample": "A:2 B:33 C:15 D:2"
+    },
+    {
+      "id": "111-4301-legal_english-61",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "111-1301-legal_ethics-62",
+      "thinCount": 3,
+      "sample": "A:3 B:72 C:3 D:3"
+    },
+    {
+      "id": "111-2301-international_public-62",
+      "thinCount": 2,
+      "sample": "A:2 B:15 C:2 D:36"
+    },
+    {
+      "id": "111-4301-legal_english-62",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "111-1301-legal_ethics-63",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:56 D:3"
+    },
+    {
+      "id": "111-2301-international_public-63",
+      "thinCount": 2,
+      "sample": "A:2 B:40 C:15 D:2"
+    },
+    {
+      "id": "111-4301-legal_english-63",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "111-1301-legal_ethics-64",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:3 D:68"
+    },
+    {
+      "id": "111-2301-international_public-64",
+      "thinCount": 2,
+      "sample": "A:2 B:15 C:44 D:2"
+    },
+    {
+      "id": "111-4301-legal_english-64",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "111-1301-legal_ethics-65",
+      "thinCount": 3,
+      "sample": "A:3 B:69 C:3 D:3"
+    },
+    {
+      "id": "111-2301-international_public-65",
+      "thinCount": 2,
+      "sample": "A:44 B:15 C:2 D:2"
+    },
+    {
+      "id": "111-4301-legal_english-65",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "111-1301-legal_ethics-66",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:3 D:67"
+    },
+    {
+      "id": "111-2301-international_private-66",
+      "thinCount": 2,
+      "sample": "A:15 B:2 C:48 D:2"
+    },
+    {
+      "id": "111-4301-legal_english-66",
+      "thinCount": 2,
+      "sample": "A:42 B:49 C:9 D:9"
+    },
+    {
+      "id": "111-1301-legal_ethics-67",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:67 D:3"
+    },
+    {
+      "id": "111-2301-international_private-67",
+      "thinCount": 3,
+      "sample": "A:3 B:49 C:3 D:3"
+    },
+    {
+      "id": "111-1301-legal_ethics-68",
+      "thinCount": 3,
+      "sample": "A:64 B:3 C:3 D:3"
+    },
+    {
+      "id": "111-1301-legal_ethics-69",
+      "thinCount": 3,
+      "sample": "A:9 B:60 C:9 D:9"
+    },
+    {
+      "id": "111-2301-international_private-69",
+      "thinCount": 2,
+      "sample": "A:15 B:40 C:2 D:2"
+    },
+    {
+      "id": "111-4301-legal_english-69",
+      "thinCount": 2,
+      "sample": "A:47 B:26 C:9 D:9"
+    },
+    {
+      "id": "111-1301-legal_ethics-70",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:3 D:93"
+    },
+    {
+      "id": "111-2301-international_private-70",
+      "thinCount": 2,
+      "sample": "A:2 B:2 C:49 D:15"
+    },
+    {
+      "id": "111-4301-legal_english-70",
+      "thinCount": 2,
+      "sample": "A:73 B:63 C:9 D:9"
+    },
+    {
+      "id": "111-1301-legal_ethics-71",
+      "thinCount": 3,
+      "sample": "A:8 B:8 C:8 D:73"
+    },
+    {
+      "id": "111-2301-international_private-71",
+      "thinCount": 2,
+      "sample": "A:2 B:15 C:43 D:2"
+    },
+    {
+      "id": "111-1301-legal_ethics-72",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:3 D:85"
+    },
+    {
+      "id": "111-2301-international_private-72",
+      "thinCount": 2,
+      "sample": "A:15 B:26 C:2 D:2"
+    },
+    {
+      "id": "111-1301-legal_ethics-73",
+      "thinCount": 3,
+      "sample": "A:67 B:3 C:3 D:3"
+    },
+    {
+      "id": "111-2301-international_private-73",
+      "thinCount": 3,
+      "sample": "A:3 B:58 C:3 D:3"
+    },
+    {
+      "id": "111-1301-legal_ethics-74",
+      "thinCount": 3,
+      "sample": "A:8 B:8 C:8 D:69"
+    },
+    {
+      "id": "111-2301-international_private-74",
+      "thinCount": 2,
+      "sample": "A:37 B:15 C:2 D:2"
+    },
+    {
+      "id": "111-1301-legal_ethics-75",
+      "thinCount": 3,
+      "sample": "A:8 B:8 C:72 D:8"
+    },
+    {
+      "id": "111-3301-civil-77",
+      "thinCount": 2,
+      "sample": "A:2 B:67 C:2 D:15"
+    },
+    {
+      "id": "111-3301-civil-78",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:3 D:59"
+    },
+    {
+      "id": "111-3301-civil-79",
+      "thinCount": 2,
+      "sample": "A:15 B:2 C:2 D:63"
+    },
+    {
+      "id": "111-3301-civil-80",
+      "thinCount": 2,
+      "sample": "A:46 B:2 C:2 D:15"
+    },
+    {
+      "id": "112-3301-civil-01",
+      "thinCount": 3,
+      "sample": "A:51 B:3 C:3 D:3"
+    },
+    {
+      "id": "112-3301-civil-02",
+      "thinCount": 3,
+      "sample": "A:3 B:52 C:3 D:3"
+    },
+    {
+      "id": "112-3301-civil-03",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:3 D:52"
+    },
+    {
+      "id": "112-3301-civil-04",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:53 D:3"
+    },
+    {
+      "id": "112-3301-civil-05",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:44 D:3"
+    },
+    {
+      "id": "112-3301-civil-06",
+      "thinCount": 3,
+      "sample": "A:3 B:49 C:3 D:3"
+    },
+    {
+      "id": "112-3301-civil-07",
+      "thinCount": 3,
+      "sample": "A:52 B:3 C:3 D:3"
+    },
+    {
+      "id": "112-3301-civil-08",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:58 D:3"
+    },
+    {
+      "id": "112-3301-civil-09",
+      "thinCount": 3,
+      "sample": "A:3 B:53 C:3 D:3"
+    },
+    {
+      "id": "112-3301-civil-10",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:50 D:3"
+    },
+    {
+      "id": "112-4301-company-10",
+      "thinCount": 2,
+      "sample": "A:5 C:9 D:10 B:25"
+    },
+    {
+      "id": "112-3301-civil-11",
+      "thinCount": 2,
+      "sample": "A:2 B:15 C:56 D:5"
+    },
+    {
+      "id": "112-3301-civil-12",
+      "thinCount": 2,
+      "sample": "A:2 B:56 C:15 D:2"
+    },
+    {
+      "id": "112-3301-civil-13",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:50 D:3"
+    },
+    {
+      "id": "112-3301-civil-14",
+      "thinCount": 3,
+      "sample": "A:56 B:3 C:3 D:3"
+    },
+    {
+      "id": "112-3301-civil-15",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:61 D:3"
+    },
+    {
+      "id": "112-3301-civil-16",
+      "thinCount": 3,
+      "sample": "A:46 B:3 C:3 D:3"
+    },
+    {
+      "id": "112-3301-civil-17",
+      "thinCount": 3,
+      "sample": "A:60 B:3 C:3 D:3"
+    },
+    {
+      "id": "112-3301-civil-18",
+      "thinCount": 3,
+      "sample": "A:9 B:9 C:50 D:9"
+    },
+    {
+      "id": "112-3301-civil-19",
+      "thinCount": 3,
+      "sample": "A:3 B:52 C:3 D:3"
+    },
+    {
+      "id": "112-3301-civil-20",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:63 D:3"
+    },
+    {
+      "id": "112-3301-civil-21",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:56 D:3"
+    },
+    {
+      "id": "112-3301-civil-22",
+      "thinCount": 3,
+      "sample": "A:3 B:50 C:3 D:3"
+    },
+    {
+      "id": "112-3301-civil-23",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:3 D:53 E:0"
+    },
+    {
+      "id": "112-3301-civil-24",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:51 D:3"
+    },
+    {
+      "id": "112-3301-civil-25",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:49 D:3"
+    },
+    {
+      "id": "112-3301-civil-26",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:3 D:53 E:0"
+    },
+    {
+      "id": "112-2301-administrative-27",
+      "thinCount": 2,
+      "sample": "A:19 B:7 C:7 D:32"
+    },
+    {
+      "id": "112-3301-civil-27",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:57 D:3"
+    },
+    {
+      "id": "112-4301-negotiable_instruments-27",
+      "thinCount": 4,
+      "sample": "A:9 B:9 C:9 D:9"
+    },
+    {
+      "id": "112-3301-civil-28",
+      "thinCount": 3,
+      "sample": "A:3 B:62 C:3 D:3"
+    },
+    {
+      "id": "112-4301-negotiable_instruments-28",
+      "thinCount": 4,
+      "sample": "A:9 B:9 C:9 D:9"
+    },
+    {
+      "id": "112-3301-civil-29",
+      "thinCount": 3,
+      "sample": "A:45 B:3 C:3 D:3"
+    },
+    {
+      "id": "112-4301-negotiable_instruments-29",
+      "thinCount": 4,
+      "sample": "A:9 B:9 C:9 D:9"
+    },
+    {
+      "id": "112-3301-civil-30",
+      "thinCount": 3,
+      "sample": "A:3 B:79 C:3 D:3"
+    },
+    {
+      "id": "112-4301-negotiable_instruments-30",
+      "thinCount": 4,
+      "sample": "A:9 B:9 C:9 D:9"
+    },
+    {
+      "id": "112-3301-civil-31",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:69 D:3"
+    },
+    {
+      "id": "112-4301-negotiable_instruments-31",
+      "thinCount": 4,
+      "sample": "A:9 B:9 C:9 D:9"
+    },
+    {
+      "id": "112-3301-civil-32",
+      "thinCount": 3,
+      "sample": "A:7 B:9 C:9 D:51"
+    },
+    {
+      "id": "112-4301-negotiable_instruments-32",
+      "thinCount": 4,
+      "sample": "A:9 B:9 C:9 D:9"
+    },
+    {
+      "id": "112-3301-civil-33",
+      "thinCount": 2,
+      "sample": "A:15 B:60 C:2 D:2"
+    },
+    {
+      "id": "112-4301-negotiable_instruments-33",
+      "thinCount": 4,
+      "sample": "A:9 B:9 C:9 D:9"
+    },
+    {
+      "id": "112-3301-civil-35",
+      "thinCount": 2,
+      "sample": "A:60 B:5 C:18 D:5"
+    },
+    {
+      "id": "112-3301-civil-36",
+      "thinCount": 2,
+      "sample": "A:15 B:2 C:41 D:5"
+    },
+    {
+      "id": "112-3301-civil-37",
+      "thinCount": 2,
+      "sample": "A:65 B:5 C:18 D:5"
+    },
+    {
+      "id": "112-3301-civil-38",
+      "thinCount": 2,
+      "sample": "A:15 B:46 C:2 D:2"
+    },
+    {
+      "id": "112-3301-civil-39",
+      "thinCount": 2,
+      "sample": "A:2 B:15 C:41 D:5"
+    },
+    {
+      "id": "112-3301-civil-40",
+      "thinCount": 2,
+      "sample": "A:2 B:2 C:15 D:50"
+    },
+    {
+      "id": "112-3301-civil-41",
+      "thinCount": 2,
+      "sample": "A:2 B:54 C:2 D:15"
+    },
+    {
+      "id": "112-3301-civil-42",
+      "thinCount": 2,
+      "sample": "A:2 B:15 C:47 D:5"
+    },
+    {
+      "id": "112-3301-civil-43",
+      "thinCount": 2,
+      "sample": "A:69 B:5 C:18 D:5"
+    },
+    {
+      "id": "112-3301-civil-44",
+      "thinCount": 2,
+      "sample": "A:15 B:2 C:2 D:55"
+    },
+    {
+      "id": "112-3301-civil-45",
+      "thinCount": 2,
+      "sample": "A:2 B:49 C:2 D:15"
+    },
+    {
+      "id": "112-3301-civil-46",
+      "thinCount": 3,
+      "sample": "A:3 B:56 C:3 D:3"
+    },
+    {
+      "id": "112-3301-civil-47",
+      "thinCount": 2,
+      "sample": "A:51 B:18 C:5 D:5"
+    },
+    {
+      "id": "112-4301-enforcement-47",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "112-3301-civil-48",
+      "thinCount": 2,
+      "sample": "E:0 A:15 B:2 C:2 D:40"
+    },
+    {
+      "id": "112-4301-enforcement-48",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "112-3301-civil-49",
+      "thinCount": 2,
+      "sample": "A:5 B:5 C:42 D:18"
+    },
+    {
+      "id": "112-4301-enforcement-49",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "112-4301-enforcement-50",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "112-1301-criminal_procedure-51",
+      "thinCount": 3,
+      "sample": "A:3 B:79 C:3 D:3"
+    },
+    {
+      "id": "112-4301-enforcement-51",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "112-1301-criminal_procedure-52",
+      "thinCount": 2,
+      "sample": "A:2 B:15 C:75 D:2"
+    },
+    {
+      "id": "112-4301-enforcement-52",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "112-1301-criminal_procedure-53",
+      "thinCount": 3,
+      "sample": "A:3 B:94 C:3 D:3"
+    },
+    {
+      "id": "112-4301-enforcement-53",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "112-1301-criminal_procedure-54",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:72 D:3"
+    },
+    {
+      "id": "112-1301-criminal_procedure-55",
+      "thinCount": 3,
+      "sample": "A:3 B:67 C:3 D:3"
+    },
+    {
+      "id": "112-1301-criminal_procedure-56",
+      "thinCount": 3,
+      "sample": "A:3 B:83 C:3 D:3"
+    },
+    {
+      "id": "112-2301-international_public-56",
+      "thinCount": 3,
+      "sample": "A:3 B:50 C:3 D:3"
+    },
+    {
+      "id": "112-4301-legal_english-56",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "112-1301-criminal_procedure-57",
+      "thinCount": 3,
+      "sample": "A:74 B:3 C:3 D:3"
+    },
+    {
+      "id": "112-2301-international_public-57",
+      "thinCount": 2,
+      "sample": "A:15 B:2 C:36 D:2"
+    },
+    {
+      "id": "112-4301-legal_english-57",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "112-1301-criminal_procedure-58",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:93 D:3"
+    },
+    {
+      "id": "112-2301-international_public-58",
+      "thinCount": 2,
+      "sample": "A:2 B:15 C:41 D:2"
+    },
+    {
+      "id": "112-4301-legal_english-58",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "112-2301-international_public-59",
+      "thinCount": 2,
+      "sample": "A:40 B:2 C:15 D:2"
+    },
+    {
+      "id": "112-4301-legal_english-59",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "112-1301-criminal_procedure-60",
+      "thinCount": 3,
+      "sample": "A:67 B:3 C:3 D:3"
+    },
+    {
+      "id": "112-4301-legal_english-60",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "112-1301-legal_ethics-61",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:69 D:3"
+    },
+    {
+      "id": "112-2301-international_public-61",
+      "thinCount": 2,
+      "sample": "A:15 B:2 C:35 D:2"
+    },
+    {
+      "id": "112-4301-legal_english-61",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "112-1301-legal_ethics-62",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:49 D:3"
+    },
+    {
+      "id": "112-4301-legal_english-62",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "112-1301-legal_ethics-63",
+      "thinCount": 2,
+      "sample": "A:15 B:3 C:3 D:55"
+    },
+    {
+      "id": "112-2301-international_public-63",
+      "thinCount": 2,
+      "sample": "A:2 B:2 C:15 D:38"
+    },
+    {
+      "id": "112-4301-legal_english-63",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "112-1301-legal_ethics-64",
+      "thinCount": 2,
+      "sample": "A:59 B:16 C:9 D:9"
+    },
+    {
+      "id": "112-2301-international_public-64",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:3 D:54"
+    },
+    {
+      "id": "112-4301-legal_english-64",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "112-1301-legal_ethics-65",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:3 D:69"
+    },
+    {
+      "id": "112-4301-legal_english-65",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "112-1301-legal_ethics-66",
+      "thinCount": 2,
+      "sample": "A:2 B:50 C:15 D:2"
+    },
+    {
+      "id": "112-2301-international_private-66",
+      "thinCount": 3,
+      "sample": "A:37 B:3 C:3 D:3"
+    },
+    {
+      "id": "112-1301-legal_ethics-67",
+      "thinCount": 3,
+      "sample": "A:66 B:3 C:3 D:3"
+    },
+    {
+      "id": "112-2301-international_private-67",
+      "thinCount": 2,
+      "sample": "A:15 B:2 C:2 D:41"
+    },
+    {
+      "id": "112-1301-legal_ethics-68",
+      "thinCount": 3,
+      "sample": "A:8 B:62 C:8 D:8"
+    },
+    {
+      "id": "112-2301-international_private-68",
+      "thinCount": 2,
+      "sample": "A:2 B:2 C:57 D:15"
+    },
+    {
+      "id": "112-4301-legal_english-68",
+      "thinCount": 2,
+      "sample": "A:54 B:60 C:9 D:9"
+    },
+    {
+      "id": "112-1301-legal_ethics-69",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:65 D:3"
+    },
+    {
+      "id": "112-1301-legal_ethics-70",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:63 D:3"
+    },
+    {
+      "id": "112-1301-legal_ethics-71",
+      "thinCount": 3,
+      "sample": "A:3 B:70 C:3 D:3"
+    },
+    {
+      "id": "112-2301-international_private-71",
+      "thinCount": 3,
+      "sample": "A:3 B:53 C:3 D:3"
+    },
+    {
+      "id": "112-1301-legal_ethics-72",
+      "thinCount": 3,
+      "sample": "A:3 B:63 C:3 D:3"
+    },
+    {
+      "id": "112-2301-international_private-72",
+      "thinCount": 2,
+      "sample": "A:2 B:61 C:15 D:2"
+    },
+    {
+      "id": "112-1301-legal_ethics-73",
+      "thinCount": 3,
+      "sample": "A:3 B:49 C:3 D:3"
+    },
+    {
+      "id": "112-2301-international_private-73",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:65 D:3"
+    },
+    {
+      "id": "112-1301-legal_ethics-74",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:77 D:3"
+    },
+    {
+      "id": "112-1301-legal_ethics-75",
+      "thinCount": 3,
+      "sample": "A:3 B:66 C:9 D:8"
+    },
+    {
+      "id": "112-2301-international_private-75",
+      "thinCount": 2,
+      "sample": "A:2 B:15 C:2 D:48"
+    },
+    {
+      "id": "112-3301-civil_procedure-76",
+      "thinCount": 4,
+      "sample": "A:9 B:3 C:7 D:3"
+    },
+    {
+      "id": "113-3301-civil-01",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:3 D:45 E:0"
+    },
+    {
+      "id": "113-3301-civil-02",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:60 D:3"
+    },
+    {
+      "id": "113-3301-civil-03",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:58 D:3"
+    },
+    {
+      "id": "113-3301-civil-04",
+      "thinCount": 3,
+      "sample": "A:3 B:55 C:3 D:3"
+    },
+    {
+      "id": "113-3301-civil-05",
+      "thinCount": 3,
+      "sample": "A:3 B:56 C:3 D:3"
+    },
+    {
+      "id": "113-3301-civil-06",
+      "thinCount": 3,
+      "sample": "A:50 B:3 C:3 D:3"
+    },
+    {
+      "id": "113-3301-civil-07",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:48 D:3"
+    },
+    {
+      "id": "113-3301-civil-09",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:42 D:3"
+    },
+    {
+      "id": "113-3301-civil-10",
+      "thinCount": 3,
+      "sample": "A:3 B:49 C:3 D:3"
+    },
+    {
+      "id": "113-3301-civil-11",
+      "thinCount": 3,
+      "sample": "A:3 B:52 C:3 D:3"
+    },
+    {
+      "id": "113-3301-civil-12",
+      "thinCount": 2,
+      "sample": "A:2 B:15 C:44 D:5"
+    },
+    {
+      "id": "113-3301-civil-13",
+      "thinCount": 2,
+      "sample": "A:51 B:5 C:18 D:5"
+    },
+    {
+      "id": "113-3301-civil-14",
+      "thinCount": 2,
+      "sample": "A:15 B:2 C:53 D:2"
+    },
+    {
+      "id": "113-3301-civil-15",
+      "thinCount": 2,
+      "sample": "A:53 B:5 C:18 D:5"
+    },
+    {
+      "id": "113-4301-company-15",
+      "thinCount": 3,
+      "sample": "A:32 B:4 C:4 D:4"
+    },
+    {
+      "id": "113-3301-civil-16",
+      "thinCount": 2,
+      "sample": "E:0 A:15 B:2 C:2 D:59"
+    },
+    {
+      "id": "113-3301-civil-17",
+      "thinCount": 2,
+      "sample": "A:2 B:49 C:2 D:15"
+    },
+    {
+      "id": "113-3301-civil-18",
+      "thinCount": 2,
+      "sample": "A:2 B:15 C:42 D:5"
+    },
+    {
+      "id": "113-3301-civil-19",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:66 D:3"
+    },
+    {
+      "id": "113-3301-civil-20",
+      "thinCount": 2,
+      "sample": "A:2 B:54 C:15 D:2"
+    },
+    {
+      "id": "113-3301-civil-21",
+      "thinCount": 3,
+      "sample": "A:3 B:62 C:3 D:3"
+    },
+    {
+      "id": "113-3301-civil-22",
+      "thinCount": 2,
+      "sample": "A:2 B:15 C:45 D:5"
+    },
+    {
+      "id": "113-3301-civil-23",
+      "thinCount": 2,
+      "sample": "E:0 A:2 B:2 C:15 D:52"
+    },
+    {
+      "id": "113-3301-civil-24",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:3 D:66 E:0"
+    },
+    {
+      "id": "113-3301-civil-25",
+      "thinCount": 2,
+      "sample": "A:54 B:5 C:5 D:18"
+    },
+    {
+      "id": "113-3301-civil-26",
+      "thinCount": 3,
+      "sample": "A:57 B:3 C:3 D:3"
+    },
+    {
+      "id": "113-4301-negotiable_instruments-26",
+      "thinCount": 4,
+      "sample": "A:9 B:9 C:9 D:9"
+    },
+    {
+      "id": "113-3301-civil-27",
+      "thinCount": 2,
+      "sample": "A:15 B:58 C:2 D:2"
+    },
+    {
+      "id": "113-4301-negotiable_instruments-27",
+      "thinCount": 4,
+      "sample": "A:9 B:9 C:9 D:9"
+    },
+    {
+      "id": "113-3301-civil-28",
+      "thinCount": 3,
+      "sample": "A:3 B:63 C:3 D:3"
+    },
+    {
+      "id": "113-4301-negotiable_instruments-28",
+      "thinCount": 4,
+      "sample": "A:9 B:9 C:9 D:9"
+    },
+    {
+      "id": "113-3301-civil-30",
+      "thinCount": 2,
+      "sample": "A:65 B:5 C:18 D:5"
+    },
+    {
+      "id": "113-4301-negotiable_instruments-30",
+      "thinCount": 4,
+      "sample": "A:9 B:9 C:9 D:9"
+    },
+    {
+      "id": "113-3301-civil-31",
+      "thinCount": 2,
+      "sample": "A:15 B:2 C:51 D:5"
+    },
+    {
+      "id": "113-4301-negotiable_instruments-31",
+      "thinCount": 4,
+      "sample": "A:9 B:9 C:9 D:9"
+    },
+    {
+      "id": "113-3301-civil-32",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:62 D:3"
+    },
+    {
+      "id": "113-4301-negotiable_instruments-32",
+      "thinCount": 4,
+      "sample": "A:9 B:9 C:9 D:9"
+    },
+    {
+      "id": "113-3301-civil-33",
+      "thinCount": 2,
+      "sample": "A:15 B:2 C:46 D:5"
+    },
+    {
+      "id": "113-4301-negotiable_instruments-33",
+      "thinCount": 4,
+      "sample": "A:9 B:9 C:9 D:9"
+    },
+    {
+      "id": "113-3301-civil-34",
+      "thinCount": 2,
+      "sample": "E:0 A:2 B:2 C:15 D:43"
+    },
+    {
+      "id": "113-4301-negotiable_instruments-34",
+      "thinCount": 4,
+      "sample": "A:9 B:9 C:9 D:9"
+    },
+    {
+      "id": "113-3301-civil-35",
+      "thinCount": 2,
+      "sample": "A:64 B:5 C:18 D:5"
+    },
+    {
+      "id": "113-4301-negotiable_instruments-35",
+      "thinCount": 4,
+      "sample": "A:9 B:9 C:9 D:9"
+    },
+    {
+      "id": "113-3301-civil-36",
+      "thinCount": 2,
+      "sample": "A:2 B:2 C:48 D:12"
+    },
+    {
+      "id": "113-3301-civil-37",
+      "thinCount": 2,
+      "sample": "A:15 B:2 C:48 D:5"
+    },
+    {
+      "id": "113-3301-civil-38",
+      "thinCount": 2,
+      "sample": "A:2 B:52 C:15 D:2"
+    },
+    {
+      "id": "113-3301-civil-39",
+      "thinCount": 2,
+      "sample": "E:0 A:2 B:2 C:15 D:58"
+    },
+    {
+      "id": "113-3301-civil-40",
+      "thinCount": 3,
+      "sample": "A:3 B:55 C:3 D:3"
+    },
+    {
+      "id": "113-3301-civil-41",
+      "thinCount": 2,
+      "sample": "A:2 B:2 C:49 D:12"
+    },
+    {
+      "id": "113-3301-civil-42",
+      "thinCount": 2,
+      "sample": "A:54 B:18 C:5 D:5"
+    },
+    {
+      "id": "113-3301-civil-43",
+      "thinCount": 2,
+      "sample": "A:52 B:5 C:18 D:5"
+    },
+    {
+      "id": "113-3301-civil-44",
+      "thinCount": 2,
+      "sample": "A:15 B:54 C:2 D:2"
+    },
+    {
+      "id": "113-3301-civil-45",
+      "thinCount": 2,
+      "sample": "A:15 B:55 C:2 D:2"
+    },
+    {
+      "id": "113-3301-civil-46",
+      "thinCount": 3,
+      "sample": "A:3 B:68 C:3 D:3"
+    },
+    {
+      "id": "113-4301-enforcement-46",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "113-3301-civil-47",
+      "thinCount": 2,
+      "sample": "E:0 A:2 B:15 C:2 D:53"
+    },
+    {
+      "id": "113-4301-enforcement-47",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "113-3301-civil-48",
+      "thinCount": 2,
+      "sample": "A:48 B:18 C:5 D:5"
+    },
+    {
+      "id": "113-4301-enforcement-48",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "113-3301-civil-49",
+      "thinCount": 2,
+      "sample": "A:2 B:2 C:52 D:12"
+    },
+    {
+      "id": "113-4301-enforcement-49",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "113-3301-civil-50",
+      "thinCount": 2,
+      "sample": "A:15 B:77 C:2 D:2"
+    },
+    {
+      "id": "113-4301-enforcement-50",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "113-4301-enforcement-51",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "113-4301-enforcement-52",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "113-4301-enforcement-53",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "113-4301-enforcement-55",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "113-1301-criminal_procedure-56",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:76 D:3"
+    },
+    {
+      "id": "113-4301-legal_english-56",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "113-1301-criminal_procedure-57",
+      "thinCount": 2,
+      "sample": "A:2 B:2 C:73 D:15"
+    },
+    {
+      "id": "113-4301-legal_english-57",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "113-1301-criminal_procedure-58",
+      "thinCount": 3,
+      "sample": "A:3 B:85 C:3 D:3"
+    },
+    {
+      "id": "113-4301-legal_english-58",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "113-1301-criminal_procedure-59",
+      "thinCount": 2,
+      "sample": "A:2 B:2 C:73 D:15"
+    },
+    {
+      "id": "113-4301-legal_english-59",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "113-1301-criminal_procedure-60",
+      "thinCount": 2,
+      "sample": "A:56 B:15 C:2 D:2"
+    },
+    {
+      "id": "113-4301-legal_english-60",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "113-2301-international_public-61",
+      "thinCount": 2,
+      "sample": "A:49 B:2 C:15 D:2"
+    },
+    {
+      "id": "113-4301-legal_english-61",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "113-1301-legal_ethics-64",
+      "thinCount": 2,
+      "sample": "A:16 B:3 C:49 D:3"
+    },
+    {
+      "id": "113-4301-legal_english-64",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "113-4301-legal_english-65",
+      "thinCount": 4,
+      "sample": "A:7 B:7 C:7 D:7"
+    },
+    {
+      "id": "113-2301-international_private-66",
+      "thinCount": 2,
+      "sample": "A:2 B:15 C:32 D:2"
+    },
+    {
+      "id": "113-4301-legal_english-66",
+      "thinCount": 3,
+      "sample": "A:5 B:19 C:5 D:5"
+    },
+    {
+      "id": "113-1301-legal_ethics-67",
+      "thinCount": 2,
+      "sample": "A:15 B:56 C:3 D:3"
+    },
+    {
+      "id": "113-2301-international_private-67",
+      "thinCount": 2,
+      "sample": "A:67 B:2 C:15 D:2"
+    },
+    {
+      "id": "113-4301-legal_english-67",
+      "thinCount": 4,
+      "sample": "A:5 B:5 C:6 D:5"
+    },
+    {
+      "id": "113-2301-international_private-68",
+      "thinCount": 2,
+      "sample": "A:2 B:45 C:2 D:15"
+    },
+    {
+      "id": "113-4301-legal_english-68",
+      "thinCount": 4,
+      "sample": "A:5 B:5 C:6 D:5"
+    },
+    {
+      "id": "113-1301-legal_ethics-69",
+      "thinCount": 2,
+      "sample": "A:9 B:21 C:9 D:43"
+    },
+    {
+      "id": "113-2301-international_private-69",
+      "thinCount": 2,
+      "sample": "A:2 B:2 C:43 D:15"
+    },
+    {
+      "id": "113-4301-legal_english-69",
+      "thinCount": 4,
+      "sample": "A:5 B:6 C:5 D:5"
+    },
+    {
+      "id": "113-1301-legal_ethics-70",
+      "thinCount": 2,
+      "sample": "A:59 B:2 C:15 D:2"
+    },
+    {
+      "id": "113-2301-international_private-70",
+      "thinCount": 3,
+      "sample": "A:3 B:3 C:53 D:3"
+    },
+    {
+      "id": "113-4301-legal_english-70",
+      "thinCount": 3,
+      "sample": "A:5 B:5 C:19 D:5"
+    },
+    {
+      "id": "113-1301-legal_ethics-71",
+      "thinCount": 2,
+      "sample": "A:21 B:9 C:9 D:74"
+    },
+    {
+      "id": "113-2301-international_private-71",
+      "thinCount": 3,
+      "sample": "A:53 B:3 C:3 D:3"
+    },
+    {
+      "id": "113-1301-legal_ethics-72",
+      "thinCount": 2,
+      "sample": "A:15 B:53 C:2 D:2"
+    },
+    {
+      "id": "113-2301-international_private-72",
+      "thinCount": 2,
+      "sample": "A:74 B:15 C:2 D:2"
+    },
+    {
+      "id": "113-1301-legal_ethics-73",
+      "thinCount": 3,
+      "sample": "A:3 B:49 C:3 D:3"
+    },
+    {
+      "id": "113-2301-international_private-73",
+      "thinCount": 2,
+      "sample": "A:2 B:73 C:15 D:2"
+    },
+    {
+      "id": "113-1301-legal_ethics-74",
+      "thinCount": 2,
+      "sample": "A:24 B:3 C:72 D:3"
+    },
+    {
+      "id": "113-2301-international_private-74",
+      "thinCount": 2,
+      "sample": "A:40 B:2 C:15 D:2"
+    },
+    {
+      "id": "113-1301-legal_ethics-75",
+      "thinCount": 3,
+      "sample": "A:70 B:8 C:8 D:8"
+    },
+    {
+      "id": "113-2301-international_private-75",
+      "thinCount": 3,
+      "sample": "A:58 B:3 C:3 D:3"
+    },
+    {
+      "id": "114-303-civil-01",
+      "thinCount": 4,
+      "sample": "A:3 B:3 C:7 D:3"
+    },
+    {
+      "id": "114-303-civil-04",
+      "thinCount": 3,
+      "sample": "A:2 B:11 C:8 D:8"
+    },
+    {
+      "id": "114-303-civil-05",
+      "thinCount": 3,
+      "sample": "A:10 B:7 C:8 D:8"
+    },
+    {
+      "id": "114-303-civil-06",
+      "thinCount": 2,
+      "sample": "A:10 B:8 C:9 D:10"
+    },
+    {
+      "id": "114-303-civil-07",
+      "thinCount": 2,
+      "sample": "A:8 B:10 C:10 D:8"
+    },
+    {
+      "id": "114-303-civil-08",
+      "thinCount": 4,
+      "sample": "A:4 B:8 C:9 D:7"
+    },
+    {
+      "id": "114-303-civil-10",
+      "thinCount": 3,
+      "sample": "A:7 B:22 C:2 D:2"
+    },
+    {
+      "id": "114-303-civil-11",
+      "thinCount": 3,
+      "sample": "A:6 B:8 C:8 D:10"
+    },
+    {
+      "id": "114-303-civil-12",
+      "thinCount": 3,
+      "sample": "A:2 B:16 C:6 D:2"
+    },
+    {
+      "id": "114-304-company-15",
+      "thinCount": 3,
+      "sample": "A:4 B:4 C:4 D:42"
+    },
+    {
+      "id": "114-303-civil-20",
+      "thinCount": 3,
+      "sample": "A:10 B:8 C:8 D:8"
+    },
+    {
+      "id": "114-304-insurance-20",
+      "thinCount": 3,
+      "sample": "A:21 B:4 C:4 D:4"
+    },
+    {
+      "id": "114-304-negotiable_instruments-29",
+      "thinCount": 2,
+      "sample": "A:33 B:9 C:9 D:21"
+    },
+    {
+      "id": "114-303-civil-30",
+      "thinCount": 2,
+      "sample": "A:4 B:16 C:14 D:4"
+    },
+    {
+      "id": "114-302-criminal-32",
+      "thinCount": 2,
+      "sample": "A:28 B:23 C:8 D:8"
+    },
+    {
+      "id": "114-303-civil-32",
+      "thinCount": 3,
+      "sample": "A:8 B:13 C:7 D:6"
+    },
+    {
+      "id": "114-303-civil-34",
+      "thinCount": 4,
+      "sample": "A:8 B:8 C:2 D:2"
+    },
+    {
+      "id": "114-303-civil-36",
+      "thinCount": 3,
+      "sample": "A:15 B:5 C:5 D:5"
+    },
+    {
+      "id": "114-303-civil-37",
+      "thinCount": 3,
+      "sample": "A:6 B:6 C:11 D:6"
+    },
+    {
+      "id": "114-303-civil-42",
+      "thinCount": 3,
+      "sample": "A:2 B:2 C:15 D:2"
+    },
+    {
+      "id": "114-303-civil-50",
+      "thinCount": 2,
+      "sample": "A:35 B:9 C:24 D:9"
+    }
+  ]
+}

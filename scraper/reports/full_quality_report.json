@@ -1,0 +1,3138 @@
+{
+  "answerWrong": [],
+  "expMismatch": [
+    {
+      "id": "111-1301-criminal-01",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal-02",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal-03",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal-06",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal-08",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal-12",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal-13",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal-14",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal-15",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal-16",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal-17",
+      "dbAns": "C",
+      "expAns": "B"
+    },
+    {
+      "id": "111-1301-criminal-18",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal-21",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal-22",
+      "dbAns": "C",
+      "expAns": "B"
+    },
+    {
+      "id": "111-1301-criminal-23",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal-24",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "111-1301-criminal-25",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal-27",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal-29",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal-30",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal-31",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal-32",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal-33",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal_procedure-36",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal_procedure-37",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal_procedure-38",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal_procedure-39",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal_procedure-40",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal_procedure-41",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal_procedure-42",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal_procedure-43",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal_procedure-44",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal_procedure-45",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal_procedure-46",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal_procedure-48",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal_procedure-49",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal_procedure-52",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal_procedure-53",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal_procedure-55",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal_procedure-56",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal_procedure-58",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-criminal_procedure-60",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-legal_ethics-61",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-legal_ethics-62",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-legal_ethics-63",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-legal_ethics-64",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-legal_ethics-65",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-legal_ethics-66",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-legal_ethics-67",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-legal_ethics-68",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "111-1301-legal_ethics-69",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-legal_ethics-70",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-legal_ethics-71",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-legal_ethics-72",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-legal_ethics-74",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-1301-legal_ethics-75",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-administrative-31",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-administrative-34",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-administrative-35",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-administrative-41",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-administrative-45",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-constitutional-01",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-constitutional-02",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-constitutional-03",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-constitutional-05",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-constitutional-06",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-constitutional-07",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-constitutional-08",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-constitutional-09",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-constitutional-10",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-constitutional-11",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-constitutional-13",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-constitutional-15",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-constitutional-16",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-constitutional-17",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-constitutional-19",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-international_private-67",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-international_private-68",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-international_private-70",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-international_private-71",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-international_private-73",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-international_private-74",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-international_private-75",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-international_public-56",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-international_public-57",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-international_public-59",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-international_public-60",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-international_public-61",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-international_public-62",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-international_public-63",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-2301-international_public-64",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-3301-civil-03",
+      "dbAns": "C",
+      "expAns": "B"
+    },
+    {
+      "id": "111-3301-civil-06",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-3301-civil-13",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-3301-civil-17",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-3301-civil-19",
+      "dbAns": "D",
+      "expAns": "B"
+    },
+    {
+      "id": "111-3301-civil-29",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-3301-civil-30",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-3301-civil-31",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-3301-civil-34",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-3301-civil-37",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-3301-civil-38",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-3301-civil-43",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-3301-civil-46",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-3301-civil-48",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-3301-civil-77",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-3301-civil-78",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-3301-civil-80",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-3301-civil_procedure-60",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-4301-company-02",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "111-4301-company-04",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-4301-company-06",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-4301-company-07",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "111-4301-company-08",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "111-4301-enforcement-53",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "111-4301-enforcement-54",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-4301-insurance-18",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-4301-insurance-19",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-4301-negotiable_instruments-31",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "111-4301-securities-39",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "111-4301-securities-40",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "111-4301-securities-41",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "111-4301-securities-43",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-1301-criminal-01",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "112-1301-criminal-03",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-1301-criminal-06",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "112-1301-criminal-10",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "112-1301-criminal-18",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-1301-criminal-19",
+      "dbAns": "C",
+      "expAns": "D"
+    },
+    {
+      "id": "112-1301-criminal-23",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "112-1301-criminal-26",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "112-1301-criminal-40",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-1301-criminal-41",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-1301-criminal-46",
+      "dbAns": "C",
+      "expAns": "D"
+    },
+    {
+      "id": "112-1301-criminal_procedure-51",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-1301-criminal_procedure-52",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-1301-criminal_procedure-53",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-1301-criminal_procedure-54",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-1301-criminal_procedure-55",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-1301-criminal_procedure-56",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-1301-criminal_procedure-57",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "112-1301-criminal_procedure-58",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-1301-criminal_procedure-59",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-1301-legal_ethics-61",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-1301-legal_ethics-62",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-1301-legal_ethics-63",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "112-1301-legal_ethics-65",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "112-1301-legal_ethics-66",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-1301-legal_ethics-68",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-1301-legal_ethics-69",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-1301-legal_ethics-70",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-1301-legal_ethics-71",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-1301-legal_ethics-72",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-1301-legal_ethics-73",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-1301-legal_ethics-74",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-1301-legal_ethics-75",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-administrative-21",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-administrative-32",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-administrative-34",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-administrative-42",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-administrative-46",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-administrative-48",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-administrative-51",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-constitutional-03",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-constitutional-05",
+      "dbAns": "D",
+      "expAns": "B"
+    },
+    {
+      "id": "112-2301-constitutional-06",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-constitutional-08",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-constitutional-10",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-constitutional-11",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-constitutional-12",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-constitutional-13",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-constitutional-14",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-constitutional-15",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-constitutional-16",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-constitutional-17",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-constitutional-18",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-constitutional-19",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-constitutional-20",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-international_private-68",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-international_private-69",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-international_private-70",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-international_private-71",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-international_private-72",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-international_private-73",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-international_private-74",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-international_private-75",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-international_public-56",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-international_public-58",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-international_public-59",
+      "dbAns": "C",
+      "expAns": "B"
+    },
+    {
+      "id": "112-2301-international_public-60",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-international_public-63",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-2301-international_public-64",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-02",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-03",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-04",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-05",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-06",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-08",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-09",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-10",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-11",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-12",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-13",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-15",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-18",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-20",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-21",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-22",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-23",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-24",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-25",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-26",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-27",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-28",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-30",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-31",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-32",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-34",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-39",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-40",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-41",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-42",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-45",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "112-3301-civil-46",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-4301-company-14",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "112-4301-enforcement-55",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "112-4301-insurance-16",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "112-4301-insurance-17",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "112-4301-insurance-19",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "112-4301-securities-39",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "113-1301-criminal-02",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "113-1301-criminal-04",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-1301-criminal-06",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-1301-criminal-10",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "113-1301-criminal-12",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-1301-criminal-13",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-1301-criminal-14",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-1301-criminal-16",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-1301-criminal-17",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "113-1301-criminal-19",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "113-1301-criminal-20",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-1301-criminal-21",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "113-1301-criminal-22",
+      "dbAns": "D",
+      "expAns": "B"
+    },
+    {
+      "id": "113-1301-criminal-24",
+      "dbAns": "D",
+      "expAns": "B"
+    },
+    {
+      "id": "113-1301-criminal-26",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-1301-criminal-28",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-1301-criminal-29",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-1301-criminal-30",
+      "dbAns": "C",
+      "expAns": "B"
+    },
+    {
+      "id": "113-1301-criminal-31",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "113-1301-criminal-33",
+      "dbAns": "D",
+      "expAns": "B"
+    },
+    {
+      "id": "113-1301-criminal-35",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-1301-criminal-39",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-1301-criminal-41",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-1301-criminal_procedure-56",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-1301-criminal_procedure-57",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "113-1301-criminal_procedure-58",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-1301-criminal_procedure-59",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "113-1301-legal_ethics-61",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-1301-legal_ethics-62",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-1301-legal_ethics-63",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-1301-legal_ethics-64",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-1301-legal_ethics-65",
+      "dbAns": "D",
+      "expAns": "B"
+    },
+    {
+      "id": "113-1301-legal_ethics-66",
+      "dbAns": "D",
+      "expAns": "B"
+    },
+    {
+      "id": "113-1301-legal_ethics-67",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-1301-legal_ethics-69",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-1301-legal_ethics-70",
+      "dbAns": "C",
+      "expAns": "B"
+    },
+    {
+      "id": "113-1301-legal_ethics-73",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-1301-legal_ethics-74",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-administrative-23",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-administrative-24",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-administrative-27",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-administrative-40",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-administrative-42",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-administrative-45",
+      "dbAns": "C",
+      "expAns": "B"
+    },
+    {
+      "id": "113-2301-administrative-48",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-administrative-49",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-administrative-50",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-administrative-51",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-administrative-55",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-constitutional-01",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-constitutional-03",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-constitutional-04",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-constitutional-05",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-constitutional-07",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-constitutional-08",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-constitutional-09",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-constitutional-11",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-constitutional-12",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-constitutional-13",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-constitutional-15",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-international_private-66",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-international_private-67",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-international_private-68",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-international_private-69",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-international_private-70",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-international_private-73",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-international_private-74",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-international_public-56",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "113-2301-international_public-57",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-international_public-58",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-international_public-59",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-international_public-60",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-international_public-61",
+      "dbAns": "C",
+      "expAns": "B"
+    },
+    {
+      "id": "113-2301-international_public-62",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-international_public-63",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-2301-international_public-64",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "113-3301-civil-01",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-02",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-03",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-04",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-05",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-06",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "113-3301-civil-07",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-08",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-09",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-10",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-11",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-12",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-17",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-18",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-19",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-20",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-21",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-22",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-23",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-24",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-28",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-29",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-32",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-34",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-36",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-38",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-39",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-40",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-41",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-46",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-47",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-3301-civil-49",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "113-4301-company-12",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "113-4301-insurance-16",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "113-4301-insurance-17",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-4301-insurance-23",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "113-4301-insurance-25",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "113-4301-securities-37",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "114-301-administrative-23",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "114-301-administrative-27",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "114-301-administrative-31",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "114-301-administrative-37",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "114-301-administrative-39",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "114-301-administrative-40",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "114-301-administrative-41",
+      "dbAns": "B",
+      "expAns": "C"
+    },
+    {
+      "id": "114-301-administrative-45",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "114-301-administrative-54",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "114-301-constitutional-02",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "114-301-constitutional-03",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "114-301-constitutional-04",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "114-301-constitutional-06",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "114-301-constitutional-07",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "114-301-constitutional-08",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "114-301-constitutional-09",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "114-301-constitutional-11",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "114-301-constitutional-13",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "114-301-constitutional-17",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "114-301-constitutional-20",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "114-301-international_private-73",
+      "dbAns": "D",
+      "expAns": "B"
+    },
+    {
+      "id": "114-301-international_public-57",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "114-301-international_public-60",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "114-302-criminal-05",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "114-302-criminal-07",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "114-302-criminal-16",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "114-302-criminal-21",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "114-302-criminal-22",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "114-302-criminal-29",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "114-302-criminal-34",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "114-302-criminal-35",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "114-302-criminal-36",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "114-302-criminal_procedure-42",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "114-302-criminal_procedure-43",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "114-302-criminal_procedure-47",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "114-302-criminal_procedure-57",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "114-302-legal_ethics-61",
+      "dbAns": "D",
+      "expAns": "B"
+    },
+    {
+      "id": "114-303-civil-02",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "114-303-civil-08",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "114-303-civil-09",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "114-303-civil-10",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "114-303-civil-12",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "114-303-civil-18",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "114-303-civil-30",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "114-303-civil-31",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "114-303-civil-33",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "114-303-civil-35",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "114-303-civil-42",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "114-303-civil-45",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "114-303-civil-46",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "114-303-civil_procedure-53",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "114-303-civil_procedure-54",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "114-303-civil_procedure-56",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "114-303-civil_procedure-57",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "114-303-civil_procedure-60",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "114-303-civil_procedure-68",
+      "dbAns": "B",
+      "expAns": "A"
+    },
+    {
+      "id": "114-303-civil_procedure-72",
+      "dbAns": "A",
+      "expAns": "C"
+    },
+    {
+      "id": "114-303-civil_procedure-75",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "114-303-civil_procedure-78",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "114-303-civil_procedure-80",
+      "dbAns": "A",
+      "expAns": "B"
+    },
+    {
+      "id": "114-304-enforcement-54",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "114-304-insurance-23",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "114-304-negotiable_instruments-27",
+      "dbAns": "D",
+      "expAns": "A"
+    },
+    {
+      "id": "114-304-negotiable_instruments-32",
+      "dbAns": "C",
+      "expAns": "A"
+    },
+    {
+      "id": "114-304-securities-44",
+      "dbAns": "B",
+      "expAns": "A"
+    }
+  ],
+  "noExp": [],
+  "noTag": [],
+  "tagMismatch": [
+    {
+      "id": "111-2301-administrative-22",
+      "subject": "administrative",
+      "tag": "憲法-平等權, 憲法-經濟社會權, 憲法-國家機關, 憲法-憲法訴訟",
+      "expected": [
+        "行政法"
+      ]
+    },
+    {
+      "id": "111-2301-administrative-39",
+      "subject": "administrative",
+      "tag": "公法-其他",
+      "expected": [
+        "行政法"
+      ]
+    },
+    {
+      "id": "111-2301-administrative-42",
+      "subject": "administrative",
+      "tag": "公法-其他",
+      "expected": [
+        "行政法"
+      ]
+    },
+    {
+      "id": "111-2301-administrative-53",
+      "subject": "administrative",
+      "tag": "公法-其他",
+      "expected": [
+        "行政法"
+      ]
+    },
+    {
+      "id": "111-2301-constitutional-04",
+      "subject": "constitutional",
+      "tag": "行政法-行政組織",
+      "expected": [
+        "憲法"
+      ]
+    },
+    {
+      "id": "111-2301-constitutional-14",
+      "subject": "constitutional",
+      "tag": "公法-其他",
+      "expected": [
+        "憲法"
+      ]
+    },
+    {
+      "id": "111-2301-international_private-66",
+      "subject": "international_private",
+      "tag": "憲法-參政救濟權",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "111-2301-international_private-67",
+      "subject": "international_private",
+      "tag": "公法-其他",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "111-2301-international_private-68",
+      "subject": "international_private",
+      "tag": "行政法-行政救濟",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "111-2301-international_private-69",
+      "subject": "international_private",
+      "tag": "公法-其他",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "111-2301-international_private-70",
+      "subject": "international_private",
+      "tag": "行政法-行政處分",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "111-2301-international_private-71",
+      "subject": "international_private",
+      "tag": "行政法-行政處分",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "111-2301-international_private-72",
+      "subject": "international_private",
+      "tag": "公法-其他",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "111-2301-international_private-73",
+      "subject": "international_private",
+      "tag": "行政法-行政組織",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "111-2301-international_private-74",
+      "subject": "international_private",
+      "tag": "公法-其他",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "111-2301-international_private-75",
+      "subject": "international_private",
+      "tag": "行政法-行政組織, 行政法-行政處分",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "111-2301-international_public-56",
+      "subject": "international_public",
+      "tag": "行政法-行政組織",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "111-2301-international_public-57",
+      "subject": "international_public",
+      "tag": "公法-其他",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "111-2301-international_public-58",
+      "subject": "international_public",
+      "tag": "公法-其他",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "111-2301-international_public-59",
+      "subject": "international_public",
+      "tag": "憲法-國家機關",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "111-2301-international_public-60",
+      "subject": "international_public",
+      "tag": "公法-其他",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "111-2301-international_public-61",
+      "subject": "international_public",
+      "tag": "公法-其他",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "111-2301-international_public-62",
+      "subject": "international_public",
+      "tag": "公法-其他",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "111-2301-international_public-63",
+      "subject": "international_public",
+      "tag": "公法-其他",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "111-2301-international_public-64",
+      "subject": "international_public",
+      "tag": "公法-其他",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "111-2301-international_public-65",
+      "subject": "international_public",
+      "tag": "行政法-行政組織",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "111-4301-company-10",
+      "subject": "company",
+      "tag": "商事法-其他, 國私-主體與行為",
+      "expected": [
+        "公司法",
+        "公司"
+      ]
+    },
+    {
+      "id": "112-2301-international_private-66",
+      "subject": "international_private",
+      "tag": "行政法-行政組織",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "112-2301-international_private-67",
+      "subject": "international_private",
+      "tag": "公法-其他",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "112-2301-international_private-68",
+      "subject": "international_private",
+      "tag": "行政法-行政組織",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "112-2301-international_private-69",
+      "subject": "international_private",
+      "tag": "公法-其他",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "112-2301-international_private-70",
+      "subject": "international_private",
+      "tag": "行政法-行政處分",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "112-2301-international_private-71",
+      "subject": "international_private",
+      "tag": "行政法-行政處分",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "112-2301-international_private-72",
+      "subject": "international_private",
+      "tag": "行政法-行政救濟",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "112-2301-international_private-73",
+      "subject": "international_private",
+      "tag": "公法-其他",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "112-2301-international_private-74",
+      "subject": "international_private",
+      "tag": "行政法-行政組織, 行政法-行政處分",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "112-2301-international_private-75",
+      "subject": "international_private",
+      "tag": "行政法-行政組織, 行政法-行政執行",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "112-2301-international_public-56",
+      "subject": "international_public",
+      "tag": "公法-其他",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "112-2301-international_public-57",
+      "subject": "international_public",
+      "tag": "行政法-行政處分",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "112-2301-international_public-58",
+      "subject": "international_public",
+      "tag": "行政法-行政處分",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "112-2301-international_public-59",
+      "subject": "international_public",
+      "tag": "憲法-平等權",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "112-2301-international_public-60",
+      "subject": "international_public",
+      "tag": "公法-其他",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "112-2301-international_public-61",
+      "subject": "international_public",
+      "tag": "憲法-國家機關",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "112-2301-international_public-62",
+      "subject": "international_public",
+      "tag": "公法-其他",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "112-2301-international_public-63",
+      "subject": "international_public",
+      "tag": "行政法-行政組織",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "112-2301-international_public-64",
+      "subject": "international_public",
+      "tag": "行政法-行政組織",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "112-2301-international_public-65",
+      "subject": "international_public",
+      "tag": "行政法-行政組織",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "112-4301-insurance-19",
+      "subject": "insurance",
+      "tag": "商事法-其他, 強執-金錢債權執行, 國公-國家與領土",
+      "expected": [
+        "保險法",
+        "保險"
+      ]
+    },
+    {
+      "id": "112-4301-legal_english-64",
+      "subject": "legal_english",
+      "tag": "商事法-其他",
+      "expected": [
+        "法英",
+        "法學英文"
+      ]
+    },
+    {
+      "id": "112-4301-legal_english-66",
+      "subject": "legal_english",
+      "tag": "商事法-其他",
+      "expected": [
+        "法英",
+        "法學英文"
+      ]
+    },
+    {
+      "id": "112-4301-legal_english-68",
+      "subject": "legal_english",
+      "tag": "商事法-其他",
+      "expected": [
+        "法英",
+        "法學英文"
+      ]
+    },
+    {
+      "id": "112-4301-legal_english-69",
+      "subject": "legal_english",
+      "tag": "商事法-其他",
+      "expected": [
+        "法英",
+        "法學英文"
+      ]
+    },
+    {
+      "id": "113-2301-administrative-19",
+      "subject": "administrative",
+      "tag": "憲法-參政救濟權, 憲法-國家機關",
+      "expected": [
+        "行政法"
+      ]
+    },
+    {
+      "id": "113-2301-constitutional-03",
+      "subject": "constitutional",
+      "tag": "公法-其他",
+      "expected": [
+        "憲法"
+      ]
+    },
+    {
+      "id": "113-2301-international_private-66",
+      "subject": "international_private",
+      "tag": "公法-其他",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "113-2301-international_private-67",
+      "subject": "international_private",
+      "tag": "行政法-行政處分",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "113-2301-international_private-68",
+      "subject": "international_private",
+      "tag": "公法-其他",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "113-2301-international_private-69",
+      "subject": "international_private",
+      "tag": "行政法-行政處分",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "113-2301-international_private-70",
+      "subject": "international_private",
+      "tag": "公法-其他",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "113-2301-international_private-71",
+      "subject": "international_private",
+      "tag": "行政法-行政處分",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "113-2301-international_private-72",
+      "subject": "international_private",
+      "tag": "行政法-行政處分",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "113-2301-international_private-73",
+      "subject": "international_private",
+      "tag": "公法-其他",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "113-2301-international_private-74",
+      "subject": "international_private",
+      "tag": "公法-其他",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "113-2301-international_private-75",
+      "subject": "international_private",
+      "tag": "行政法-行政組織",
+      "expected": [
+        "國際私法",
+        "國私"
+      ]
+    },
+    {
+      "id": "113-2301-international_public-56",
+      "subject": "international_public",
+      "tag": "公法-其他",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "113-2301-international_public-57",
+      "subject": "international_public",
+      "tag": "行政法-行政處分",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "113-2301-international_public-58",
+      "subject": "international_public",
+      "tag": "公法-其他",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "113-2301-international_public-59",
+      "subject": "international_public",
+      "tag": "公法-其他",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "113-2301-international_public-60",
+      "subject": "international_public",
+      "tag": "行政法-行政組織",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "113-2301-international_public-61",
+      "subject": "international_public",
+      "tag": "公法-其他",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "113-2301-international_public-62",
+      "subject": "international_public",
+      "tag": "行政法-行政組織",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "113-2301-international_public-63",
+      "subject": "international_public",
+      "tag": "行政法-行政組織",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "113-2301-international_public-64",
+      "subject": "international_public",
+      "tag": "行政法-行政組織",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "113-2301-international_public-65",
+      "subject": "international_public",
+      "tag": "行政法-行政組織",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "113-4301-insurance-23",
+      "subject": "insurance",
+      "tag": "商事法-其他",
+      "expected": [
+        "保險法",
+        "保險"
+      ]
+    },
+    {
+      "id": "113-4301-legal_english-64",
+      "subject": "legal_english",
+      "tag": "商事法-其他",
+      "expected": [
+        "法英",
+        "法學英文"
+      ]
+    },
+    {
+      "id": "113-4301-legal_english-66",
+      "subject": "legal_english",
+      "tag": "商事法-其他",
+      "expected": [
+        "法英",
+        "法學英文"
+      ]
+    },
+    {
+      "id": "114-301-administrative-23",
+      "subject": "administrative",
+      "tag": "刑法-總則, 刑訴-主體與處分, 憲法-基本權",
+      "expected": [
+        "行政法"
+      ]
+    },
+    {
+      "id": "114-301-administrative-25",
+      "subject": "administrative",
+      "tag": "民法-總則",
+      "expected": [
+        "行政法"
+      ]
+    },
+    {
+      "id": "114-301-administrative-26",
+      "subject": "administrative",
+      "tag": "憲法-組織與訴訟",
+      "expected": [
+        "行政法"
+      ]
+    },
+    {
+      "id": "114-301-administrative-28",
+      "subject": "administrative",
+      "tag": "114-一般",
+      "expected": [
+        "行政法"
+      ]
+    },
+    {
+      "id": "114-301-administrative-30",
+      "subject": "administrative",
+      "tag": "114-一般",
+      "expected": [
+        "行政法"
+      ]
+    },
+    {
+      "id": "114-301-administrative-41",
+      "subject": "administrative",
+      "tag": "民訴-當事人, 民法-總則, 民法-債各, 刑法-總則",
+      "expected": [
+        "行政法"
+      ]
+    },
+    {
+      "id": "114-301-administrative-44",
+      "subject": "administrative",
+      "tag": "刑法-分則, 憲法-基本權, 證交法",
+      "expected": [
+        "行政法"
+      ]
+    },
+    {
+      "id": "114-301-administrative-56",
+      "subject": "administrative",
+      "tag": "民訴-裁判, 刑訴-主體與處分, 國私國公",
+      "expected": [
+        "行政法"
+      ]
+    },
+    {
+      "id": "114-301-constitutional-05",
+      "subject": "constitutional",
+      "tag": "刑法-總則, 刑法-分則",
+      "expected": [
+        "憲法"
+      ]
+    },
+    {
+      "id": "114-301-constitutional-06",
+      "subject": "constitutional",
+      "tag": "刑法-總則, 刑法-分則, 刑訴-主體與處分",
+      "expected": [
+        "憲法"
+      ]
+    },
+    {
+      "id": "114-301-constitutional-09",
+      "subject": "constitutional",
+      "tag": "民訴-裁判, 民訴-上訴救濟, 刑法-總則, 刑法-分則, 刑訴-主體與處分, 刑訴-程序救濟",
+      "expected": [
+        "憲法"
+      ]
+    },
+    {
+      "id": "114-301-constitutional-10",
+      "subject": "constitutional",
+      "tag": "民訴-裁判, 民法-物權, 刑法-分則, 刑訴-主體與處分",
+      "expected": [
+        "憲法"
+      ]
+    },
+    {
+      "id": "114-301-constitutional-11",
+      "subject": "constitutional",
+      "tag": "刑法-總則",
+      "expected": [
+        "憲法"
+      ]
+    },
+    {
+      "id": "114-301-international_public-59",
+      "subject": "international_public",
+      "tag": "民訴-管轄, 民訴-當事人, 刑訴-主體與處分, 行政法-總論",
+      "expected": [
+        "國際公法",
+        "國公"
+      ]
+    },
+    {
+      "id": "114-302-criminal-37",
+      "subject": "criminal",
+      "tag": "民訴-當事人, 民訴-裁判, 民訴-上訴救濟, 民法-總則, 刑訴-主體與處分, 刑訴-程序救濟, 憲法-組織與訴訟",
+      "expected": [
+        "刑法"
+      ]
+    },
+    {
+      "id": "114-302-criminal_procedure-52",
+      "subject": "criminal_procedure",
+      "tag": "刑法-分則",
+      "expected": [
+        "刑訴",
+        "刑事訴訟"
+      ]
+    },
+    {
+      "id": "114-302-legal_ethics-61",
+      "subject": "legal_ethics",
+      "tag": "114-一般",
+      "expected": [
+        "法倫",
+        "法律倫理"
+      ]
+    },
+    {
+      "id": "114-302-legal_ethics-62",
+      "subject": "legal_ethics",
+      "tag": "民訴-管轄, 刑訴-程序救濟",
+      "expected": [
+        "法倫",
+        "法律倫理"
+      ]
+    },
+    {
+      "id": "114-303-civil-25",
+      "subject": "civil",
+      "tag": "刑法-總則, 刑訴-主體與處分",
+      "expected": [
+        "民法"
+      ]
+    },
+    {
+      "id": "114-304-company-02",
+      "subject": "company",
+      "tag": "114-一般",
+      "expected": [
+        "公司法",
+        "公司"
+      ]
+    },
+    {
+      "id": "114-304-company-03",
+      "subject": "company",
+      "tag": "民訴-裁判, 民法-物權, 刑訴-主體與處分",
+      "expected": [
+        "公司法",
+        "公司"
+      ]
+    },
+    {
+      "id": "114-304-company-05",
+      "subject": "company",
+      "tag": "刑法-總則",
+      "expected": [
+        "公司法",
+        "公司"
+      ]
+    },
+    {
+      "id": "114-304-company-07",
+      "subject": "company",
+      "tag": "114-一般",
+      "expected": [
+        "公司法",
+        "公司"
+      ]
+    },
+    {
+      "id": "114-304-enforcement-54",
+      "subject": "enforcement",
+      "tag": "民訴-上訴救濟, 民法-債總, 刑法-總則, 刑法-分則, 刑訴-主體與處分, 刑訴-程序救濟",
+      "expected": [
+        "強制執行",
+        "強執"
+      ]
+    },
+    {
+      "id": "114-304-insurance-17",
+      "subject": "insurance",
+      "tag": "刑法-總則",
+      "expected": [
+        "保險法",
+        "保險"
+      ]
+    },
+    {
+      "id": "114-304-insurance-20",
+      "subject": "insurance",
+      "tag": "公司法",
+      "expected": [
+        "保險法",
+        "保險"
+      ]
+    },
+    {
+      "id": "114-304-insurance-21",
+      "subject": "insurance",
+      "tag": "刑法-總則",
+      "expected": [
+        "保險法",
+        "保險"
+      ]
+    },
+    {
+      "id": "114-304-insurance-23",
+      "subject": "insurance",
+      "tag": "民法-總則, 民法-身分繼承, 刑法-總則, 刑法-分則",
+      "expected": [
+        "保險法",
+        "保險"
+      ]
+    },
+    {
+      "id": "114-304-insurance-24",
+      "subject": "insurance",
+      "tag": "民法-總則",
+      "expected": [
+        "保險法",
+        "保險"
+      ]
+    },
+    {
+      "id": "114-304-insurance-25",
+      "subject": "insurance",
+      "tag": "刑法-分則",
+      "expected": [
+        "保險法",
+        "保險"
+      ]
+    },
+    {
+      "id": "114-304-legal_english-56",
+      "subject": "legal_english",
+      "tag": "民法-債總",
+      "expected": [
+        "法英",
+        "法學英文"
+      ]
+    },
+    {
+      "id": "114-304-legal_english-57",
+      "subject": "legal_english",
+      "tag": "刑法-分則",
+      "expected": [
+        "法英",
+        "法學英文"
+      ]
+    },
+    {
+      "id": "114-304-legal_english-61",
+      "subject": "legal_english",
+      "tag": "114-一般",
+      "expected": [
+        "法英",
+        "法學英文"
+      ]
+    },
+    {
+      "id": "114-304-legal_english-63",
+      "subject": "legal_english",
+      "tag": "民訴-特殊程序, 刑訴-主體與處分, 憲法-組織與訴訟",
+      "expected": [
+        "法英",
+        "法學英文"
+      ]
+    },
+    {
+      "id": "114-304-legal_english-64",
+      "subject": "legal_english",
+      "tag": "114-一般",
+      "expected": [
+        "法英",
+        "法學英文"
+      ]
+    },
+    {
+      "id": "114-304-legal_english-67",
+      "subject": "legal_english",
+      "tag": "刑法-總則, 行政法-總論",
+      "expected": [
+        "法英",
+        "法學英文"
+      ]
+    },
+    {
+      "id": "114-304-legal_english-68",
+      "subject": "legal_english",
+      "tag": "公司法",
+      "expected": [
+        "法英",
+        "法學英文"
+      ]
+    },
+    {
+      "id": "114-304-legal_english-69",
+      "subject": "legal_english",
+      "tag": "刑法-總則",
+      "expected": [
+        "法英",
+        "法學英文"
+      ]
+    },
+    {
+      "id": "114-304-securities-37",
+      "subject": "securities",
+      "tag": "刑法-總則, 公司法",
+      "expected": [
+        "證交法",
+        "證券",
+        "證交"
+      ]
+    },
+    {
+      "id": "114-304-securities-38",
+      "subject": "securities",
+      "tag": "114-一般",
+      "expected": [
+        "證交法",
+        "證券",
+        "證交"
+      ]
+    },
+    {
+      "id": "114-304-securities-39",
+      "subject": "securities",
+      "tag": "公司法",
+      "expected": [
+        "證交法",
+        "證券",
+        "證交"
+      ]
+    },
+    {
+      "id": "114-304-securities-40",
+      "subject": "securities",
+      "tag": "公司法",
+      "expected": [
+        "證交法",
+        "證券",
+        "證交"
+      ]
+    },
+    {
+      "id": "114-304-securities-41",
+      "subject": "securities",
+      "tag": "民法-總則, 民法-債各, 刑法-總則, 公司法",
+      "expected": [
+        "證交法",
+        "證券",
+        "證交"
+      ]
+    },
+    {
+      "id": "114-304-securities-44",
+      "subject": "securities",
+      "tag": "民法-債各, 民法-物權, 刑法-總則, 強執救濟",
+      "expected": [
+        "證交法",
+        "證券",
+        "證交"
+      ]
+    },
+    {
+      "id": "114-304-securities-45",
+      "subject": "securities",
+      "tag": "114-一般",
+      "expected": [
+        "證交法",
+        "證券",
+        "證交"
+      ]
+    }
+  ],
+  "incompleteExp": [],
+  "idMismatch": []
+}

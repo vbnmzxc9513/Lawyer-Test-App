@@ -49,7 +49,15 @@ export const dataLoader = {
       console.log(`🔄 開始同步題庫... (遠端: v${remoteVersion}, 本地: v${localVersion}, 本地題數: ${localCount})`);
       const q = query(collection(db, 'questions'));
       const snap = await getDocs(q);
-      const allQuestions = snap.docs.map(d => d.data());
+      const allQuestions = snap.docs.map(d => {
+        const data = d.data();
+        // Firestore 儲存 tag 為逗號分隔字串，前端需要 tags 陣列
+        if (data.tag && typeof data.tag === 'string' && !data.tags) {
+          data.tags = data.tag.split(',').map(t => t.trim()).filter(Boolean);
+        }
+        if (!data.tags) data.tags = [];
+        return data;
+      });
 
       if (allQuestions.length === 0) {
         console.warn('⚠️ Firestore 沒有題目資料');
